@@ -18,6 +18,12 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
 end
 
+# Plugins of this site loaded during a build with proper
+# site configuration.
+gem "jekyll-gist"
+gem "jekyll-coffeescript"
+gem "jekyll-seo-tag", "~> 1.5"
+
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
