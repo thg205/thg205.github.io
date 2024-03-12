@@ -267,6 +267,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 231)
   http_parser.rb (~> 0.6.0)
+  jekyll-coffeescript
   jekyll-feed (~> 0.12)
   jekyll-seo-tag
   minima (~> 2.5)
