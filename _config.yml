@@ -27,6 +27,7 @@ domain: "thg205.github.io"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thg205.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  thg205
+instagram_username: thorg98
 
 # Build settings
 theme: minima
