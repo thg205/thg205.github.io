@@ -31,11 +31,7 @@ instagram_username: thorg98
 
 # Build settings
 #theme: minima
-
-minima:
-  skin: dark
-
-remote_theme: jekyll/minima
+remote_theme: pages-themes/minimal@v0.2.0
 
 plugins:
   - jekyll-feed
