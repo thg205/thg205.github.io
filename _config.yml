@@ -30,7 +30,12 @@ github_username:  thg205
 instagram_username: thorg98
 
 # Build settings
-theme: minima
+#theme: minima
+theme: jekyll-theme-hyde # custom theme
+
+# Customizing the look
+sidebar_background: "#ff5757" # red sidebar
+
 plugins:
   - jekyll-feed
   - jekyll-coffeescript
