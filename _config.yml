@@ -31,7 +31,8 @@ instagram_username: thorg98
 
 # Build settings
 #theme: minima
-theme: jekyll-theme-hyde # custom theme
+#theme: jekyll-theme-hyde # custom theme
+remote_theme: poole/hyde # custom theme
 
 # Customizing the look
 sidebar_background: "#ff5757" # red sidebar
@@ -40,6 +41,7 @@ plugins:
   - jekyll-feed
   - jekyll-coffeescript
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
