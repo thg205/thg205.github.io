@@ -8,7 +8,7 @@ bokeh: /assets/crime_hour_plot.html
 ---
 ## Writing a bit
 
-Here I write a bit. To **bold** text in markdown you put two stars on each side (**). To make text _italic_ you put underscores on each side (_). To put text into a need `box` you put two weird apostrophes on each side (``).
+Here I write a bit. To **bold** text in markdown you put two stars on each side (**). To make text _italic_ you put underscores on each side (_). To put text into a need `box` you put two weird apostrophes on each side (`).
 
 ## Static figure
 
