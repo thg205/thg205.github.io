@@ -3,19 +3,13 @@ layout: post
 title:  Assignment 2
 date:   2024-04-02 23:59:59 +0100
 categories: jekyll update
-bar-chart: /assets/count_crimes.png
+time-series: /assets/time-series.png
 bokeh: /assets/crime_hour_plot.html
 ---
-### Placholder content for the story!
-## Writing a bit
+## Time series
+This is a time series:
 
-Here I write a bit. To **bold** text in markdown you put two stars on each side (**). To make text _italic_ you put underscores on each side (_). To put text into a need `box` you put two weird apostrophes on each side (`).
-
-## Static figure
-
-This is a static figure:
-
-![BarChart]({{ page.bar-chart}}){:width="100%"}
+![Time-series]({{ page.time-series}}){:width="100%"}
 
 ## Bokeh interactive plot
 
