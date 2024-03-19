@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Assignment 2
-date:   2024-04-02 23:59:59 +0100
+date:   2024-03-19 18:00:00 +0100
 categories: jekyll update
 time-series: /assets/time-series.png
 bokeh: /assets/crime_hour_plot.html
