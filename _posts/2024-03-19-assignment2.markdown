@@ -6,6 +6,7 @@ categories: jekyll update
 time-series: /assets/time-series.png
 bar-chart: /assets/bar-chart.png
 plotly: /assets/plotly-map.html
+bokeh: /assets/crime_hour_plot.html
 ---
 ## Time series vs Bar chart
 Should we use a time series or a bar chart? Maybe a bar chart here and then we could maybe have a time series plot as the interactive plot (the final plot).
