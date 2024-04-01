@@ -9,7 +9,7 @@ plotly: /assets/plotly-map.html
 bokeh: /assets/bokeh_plot.html
 ---
 ## Introduction to the data
-Bla bla bla...
+Bla bla bla... prufa að bæta við texta
 
 ## Bar chart showing downward trend in drug related incidents
 This is a bar chart that shows downward trend in drug related incidents:
