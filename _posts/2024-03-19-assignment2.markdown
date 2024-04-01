@@ -6,7 +6,7 @@ categories: jekyll update
 time-series: /assets/time-series.png
 bar-chart: /assets/bar-chart.png
 plotly: /assets/plotly-map.html
-bokeh: /assets/crime_hour_plot.html
+bokeh: /assets/bokeh_plot.html
 ---
 ## Bar chart showing downward trend in drug related incidents
 This is a bar chart that shows downward trend in drug related incidents:
