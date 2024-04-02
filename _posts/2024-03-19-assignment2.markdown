@@ -30,11 +30,13 @@ From above map it's obvious that certain areas have more drug related incidents,
 ### Does a decrease in drug related incidents indicate a similar decline in other crimes?
 Until know we have only been looking at drug related incidents. But what if we want to see if other crime types follow the same trend as the drug related crimes? To investigate this further we made a interactive timeseries plot. This plot allows us to compare different crime types to our drug related crimes, giving us a fun and interactive way of comparing crime types.
 
-On the y-axis we have the "crime rate", which is a standardized rate, enabling us to compare crime types of different magnitudes, given the different nature of crimes as some are simply more common/frequent than other. By clicking on different crime types we can choose what crime types we want to compare to Drug/Narcotics. For example, we see an interesting trend when comparing it to Larceny/Theft, where the trends are opposite meaning that Larceny/Theft is on the uprise in recent years.
+By clicking on different crime types we can choose what crime types we want to compare to Drug/Narcotics. For example, we see an interesting trend when comparing it to Larceny/Theft, where the trends are opposite meaning that Larceny/Theft is on the uprise in recent years.
 
 <iframe src="{{page.bokeh}}" width="100%" height="600px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
+
+On the y-axis we have the "crime rate", which is a standardized rate, enabling us to compare crime types of different magnitudes, given the different nature of crimes as some are simply more common/frequent than other.
 
 ### Conclusion
 In summary, our data driven short story sheds light on drug related crimes in San Francisco, where we are seeing a dramatic decrease in incidents and that the drug related problems are highly geographic, meaning it's dependent on geographical location. On the other hand, when compared to other crime types, this seems to be one of few exceptions, where most other crime types show an increase/steady state in crime rate in recent years. Could that be due to politcal focus on decreasing drug related incidents and less focus on other crime types like theft, vandalism, assault and weapon laws?
