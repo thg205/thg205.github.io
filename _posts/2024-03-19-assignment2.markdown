@@ -16,7 +16,7 @@ The dataset is a recording of incidents, including date/time, type of incident (
 ## Is there a trend in drug related incidents?
 The simplest of graphs can often reveal the truth. Below is a bar chart that encapsulates the question about the trend of drug related incidents. By showing the count of drug related incidents per year, we clearly see a downward trend, where the lowest recorded number of drug related incidents is in 2017.
 
-![bar-chart]({{ page.bar-chart1}}){:width="100%"}
+![Bar-chart]({{page.bar-chart1}}){:width="100%"}
 
 ## Map plot showing the drug incident density between districts
 Now you are perhaps thinking, "Ok, I know the 
