@@ -18,20 +18,25 @@ The simplest of graphs can often reveal the truth. Below bar chart shows yearly 
 
 ![Bar-chart]({{page.bar-chart}}){:width="100%"}
 
-### Map plot showing the drug incident density between districts
+### "Drug map" of San Francisco - Is the problem related to a specific area?
 Another way of looking at drug related incidents is by geographical location of the incident where the question would be more on the line of: "where in San Francisco is the majority of drug related crimes?". Introducing a interactive "heat map" where we illustrate the number of drug related incidents on a map of San Francisco in years 2003 to 2017, where colors indicate number of drug incidents within districs of San Francisco.
 
 <iframe src="{{page.plotly}}" width="100%" height="600px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
 
-From above map it's obvious that certain areas have more drug related incidents, and one area in particular is red glowing. If you are a native San Franciscan then it comes to no surprise that this area is Tenderloin, an area which is considered one of the most dangerous on San Francisco, where theft, assaults and drug use is common.
+From above map it's obvious that certain areas have more drug related incidents, and one area in particular is red glowing. If you are a native San Franciscan then it comes to no surprise that this area is Tenderloin, an area which is considered one of the most dangerous one in San Francisco, where theft, assaults and drug use is prevalent.
 
-### Interactive plot that allows for comparison between crime trends in SF
-This interactive plot allows for comparison between crime trends ins SF:
+### Does a decrease in drug related incidents indicate a similar decline in other crimes?
+Until know we have only been looking at drug related incidents. But what if we want to see if other crime types follow the same trend as the drug related crimes? To investigate this further we made a interactive timeseries plot. This plot allows us to compare different crime types to our drug related crimes, giving us a fun and interactive way of comparing crime types.
+
+On the y-axis we have the "crime rate", which is a standardized rate, enabling us to compare crime types of different magnitudes, given the different nature of crimes as some are simply more common/frequent than other. By clicking on different crime types we can choose what crime types we want to compare to Drug/Narcotics. For example, we see an interesting trend when comparing it to Larceny/Theft, where the trends are opposite meaning that Larceny/Theft is on the uprise in recent years.
+
 <iframe src="{{page.bokeh}}" width="100%" height="600px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
+
+
 
 ## Conclusion
 
