@@ -16,7 +16,7 @@ The dataset is a recording of incidents, including date/time, type of incident (
 ## Is there a trend in drug related incidents?
 This is a bar chart that shows downward trend in drug related incidents:
 
-![Bar-chart]({{ page.bar-chart}}){:width="100%"}
+![Bar-chart]({{ page.bar-chart1}}){:width="100%"}
 
 ## Map plot showing the drug incident density between districts
 This is a map plot:
