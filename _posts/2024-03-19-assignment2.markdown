@@ -43,9 +43,3 @@ In summary, our data driven short story sheds light on drug related crimes in Sa
 
 ## Contribution
 s232411 focused on setting up the web page and adding the plots to the web page whereas s232738 focused on writing the text and deriving insights from our findings. Both team members collaborated on finalizing the report.
-
-<ul>
-{% for email in site.email %}
-  <li>{{ email }}</li>
-{% endfor %}
-</ul>
