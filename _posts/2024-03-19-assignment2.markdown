@@ -28,7 +28,7 @@ Another way of looking at drug related incidents is by geographical location of 
 From above map it's obvious that certain areas have more drug related incidents, and one area in particular is red glowing. If you are a native San Franciscan then it comes to no surprise that this area is Tenderloin, an area which is considered one of the most dangerous one in San Francisco, where theft, assaults and drug use is prevalent.
 
 ### Does a decrease in drug related incidents indicate a similar decline in other crimes?
-Until know we have only been looking at drug related incidents. But what if we want to see if other crime types follow the same trend as the drug related crimes? To investigate this further we made a interactive timeseries plot. This plot allows us to compare different crime types to our drug related crimes, giving us a fun and interactive way of comparing crime types.
+Until now we have only been looking at drug related incidents. But what if we want to see if other crime types follow the same trend as the drug related crimes? To investigate this further we made a interactive timeseries plot. This plot allows us to compare different crime types to our drug related crimes, giving us a fun and interactive way of comparing crime types.
 
 By clicking on different crime types we can choose what crime types we want to compare to Drug/Narcotics. For example, we see an interesting trend when comparing it to Larceny/Theft, where the trends are opposite meaning that Larceny/Theft is on the uprise in recent years.
 
