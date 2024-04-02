@@ -36,8 +36,9 @@ On the y-axis we have the "crime rate", which is a standardized rate, enabling u
     Sorry, your browser doesn't support iframes.
 </iframe>
 
-
-
 ## Conclusion
+In summary, our data driven short story sheds light on drug related crimes in San Francisco, where we are seeing a dramatic decrease in incidents and that the drug related problems are highly geographic, meaning it's dependent on geographical location. On the other hand, when compared to other crime types, this seems to be one of few exceptions, where most other crime types show an increase in crime rate in recent years. Could that be due to politcal focus on decreasing drug problems and less focus on other crime types?
 
-### Contribution
+
+## Contribution
+s232411 focused on setting up the web page and adding the plots to the web page whereas s232738 focused on writing the text and deriving insights from our findings. Both team members collaborated on finalizing the report.
