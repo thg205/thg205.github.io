@@ -1,3 +1,5 @@
 Hugmyndir:
 
 Finna hvaða íbúðir hafi verið oftast "keyptar" á árunum 2006 til 2023 - top 5 listi
+
+Price per square meters - t.d. bar chart yfir öll focus svæði og/eða yfir ákveðna hluta reykjavíkur, hvar sé hæsta fermetraverð á íslandi
