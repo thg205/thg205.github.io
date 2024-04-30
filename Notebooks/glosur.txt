@@ -9,3 +9,5 @@ finna stýrivexti og plotta á móti fjölda kaupsamninga
 mögulega finna gamlar vaxtatöflur frá big 3 bönkunum
 
 elstu húsin á höfuðborgarsvæðinu
+- eða elsta vs yngsta húsið per sveitarfélag eða póstnúmer eða hverfi
+
