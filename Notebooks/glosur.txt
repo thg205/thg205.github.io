@@ -7,3 +7,4 @@ hvar sé hæsta fermetraverð á íslandi
 
 finna stýrivexti og plotta á móti fjölda kaupsamninga
 mögulega finna gamlar vaxtatöflur frá big 3 bönkunum
+
