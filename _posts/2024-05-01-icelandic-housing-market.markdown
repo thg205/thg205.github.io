@@ -9,17 +9,20 @@ plotly: /assets/plotly-map.html
 bokeh: /assets/bokeh_plot.html
 ---
 ## The Icelandic housing market
-
 bla bla bla
 
 ---
 
 ### Saga 1
+bla bla bla
 
 ---
 
 ### Saga 2
+bla bla bla
 
 ---
 
 ### Saga 3
+
+bla bla bla
