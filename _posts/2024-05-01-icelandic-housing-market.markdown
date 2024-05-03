@@ -20,10 +20,6 @@ Mynd af **Number of contracts per year with index rates:**
 
 ![Bar-chart]({{page.number-of-contracts-per-year-with-rates}}){:width="100%"}
 
-Mynd af **Number of contracts per municipality:**
-
-![Bar-chart]({{page.number-of-contracts-per-mun}}){:width="100%"}
-
 Mynd af **Bar chart municipality statistics:**
 
 ![Bar-chart]({{page.bar-chart-statistics}}){:width="100%"}
