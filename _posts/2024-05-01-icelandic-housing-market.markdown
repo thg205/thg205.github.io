@@ -29,13 +29,13 @@ Mynd af **Bar chart municipality statistics:**
 
 Mynd af kúk:
 
-<iframe src="{{page.price_trend_bokeh}}" width="100%" height="600px" frameborder="0">
+<iframe src="{{page.price_trend_bokeh}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
 
 Mynd af kúk 2:
 
-<iframe src="{{page.price_trend_prop_type_bokeh}}" width="100%" height="600px" frameborder="0">
+<iframe src="{{page.price_trend_prop_type_bokeh}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
 
