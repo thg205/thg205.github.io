@@ -40,11 +40,11 @@ Mynd af kúk 2:
 </iframe>
 
 Kúkur og piss:
-<iframe src="{{page.avg_price_choro}}" width="100%" height="600px" frameborder="0">
+<iframe src="{{page.avg_price_choro}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
 
 Meiri kúkur og piss:
-<iframe src="{{page.avg_price_per_m2_choro}}" width="100%" height="600px" frameborder="0">
+<iframe src="{{page.avg_price_per_m2_choro}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
