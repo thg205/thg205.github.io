@@ -9,6 +9,8 @@ number-of-contracts-per-mun: /assets/number_of_contracts_per_mun.png
 bar-chart-statistics: /assets/bar_chart_statistics.png
 price_trend_bokeh: /assets/price_trend_mun.html
 price_trend_prop_type_bokeh: /assets/price_trend_prop_type.html
+avg_price_choro: /assets/avg_price_choro.html
+avg_price_per_m2_choro: /assets/avg_price_per_m2_choro.html
 ---
 ## The Icelandic housing market
 bla bla bla
@@ -34,5 +36,15 @@ Mynd af kúk:
 Mynd af kúk 2:
 
 <iframe src="{{page.price_trend_prop_type_bokeh}}" width="100%" height="600px" frameborder="0">
+    Sorry, your browser doesn't support iframes.
+</iframe>
+
+Kúkur og piss:
+<iframe src="{{page.avg_price_choro}}" width="100%" height="600px" frameborder="0">
+    Sorry, your browser doesn't support iframes.
+</iframe>
+
+Meiri kúkur og piss:
+<iframe src="{{page.avg_price_per_m2_choro}}" width="100%" height="600px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
