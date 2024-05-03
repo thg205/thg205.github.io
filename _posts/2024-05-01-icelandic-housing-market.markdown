@@ -6,7 +6,7 @@ categories: jekyll update
 number-of-contracts-per-year: /assets/number_of_contracts_per_year.png
 number-of-contracts-per-year-with-rates: /assets/number_of_contracts_per_year_w_rates.png
 number-of-contracts-per-mun: /assets/number_of_contracts_per_mun.png
-bar-chart-statistcs: /assets/bar_chart_statistics.png
+bar-chart-statistics: /assets/bar_chart_statistics.png
 price_trend_bokeh: /assets/price_trend_mun.html
 ---
 ## The Icelandic housing market
@@ -22,11 +22,11 @@ Mynd af **Number of contracts per year with index rates:**
 
 Mynd af **Number of contracts per municipality:**
 
-![Bar-chart]({{page.number-of-contracts-per-mun}}){:width="95%"}
+![Bar-chart]({{page.number-of-contracts-per-mun}}){:width="100%"}
 
 Mynd af **Bar chart municipality statistics:**
 
-![Bar-chart]({{page.bar-chart-statistcs}}){:width="100%"}
+![Bar-chart]({{page.bar-chart-statistics}}){:width="100%"}
 
 Mynd af kúk:
 
