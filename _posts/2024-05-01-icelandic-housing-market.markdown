@@ -26,5 +26,5 @@ Mynd af **Number of contracts per municipality:**
 
 Mynd af **Number of bar chart municipality statistics:**
 
-![Bar-chart]({{page.number-of-contracts-per-mun}}){:width="95%"}
+![Bar-chart]({{page.bar-chart-statistcs}}){:width="100%"}
 
