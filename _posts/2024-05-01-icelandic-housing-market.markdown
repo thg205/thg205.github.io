@@ -64,7 +64,7 @@ Another question might arise, if there are some different price trends when look
     Sorry, your browser doesn't support iframes.
 </iframe>
 
-Now again looking at Iceland as a whole, we see what regions are the most expensive, both in regards of purchase price of property and the $m^2$ price. By hovering ower the graph with your cursor, your able to gain more informations per region!
+Now again looking at Iceland as a whole, we see what regions are the most expensive, both in regards of purchase price of property and the square meter price. By hovering ower the graph with your cursor, your able to gain more informations per region!
 
 <iframe src="{{page.avg_price_choro}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
@@ -74,24 +74,14 @@ Now again looking at Iceland as a whole, we see what regions are the most expens
     Sorry, your browser doesn't support iframes.
 </iframe>
 
-**It's apparent that*:* The capital region is both the most expensive via purcahse price and the $m^2$ price. Also, true for other regions, the graphs do not change, meaning both pruchase price and $m^2$ price are similar per region.
+**It's apparent that:** The capital region is both the most expensive via purchase price and the square meter price. Also, true for other regions, the graphs do not change, meaning both pruchase price and square meter price are similar per region.
 
 ### Zooming in: The Capital Region of Iceland
-Most people live in Reykjavík or close by municipalities. Therefor, the most interesting thing to investigate would be via postal code, that is, the postal codes that are associated with "The Caoital Region of Iceland".
+Most people live in Reykjavík or close by municipalities. Therefor, the most interesting thing to investigate would be via postal code, that is, the postal codes that are associated with "The Capital Region of Iceland".
 
 Flott mynd 1:
 
 <iframe src="{{page.avg_price_folium}}" width="100%" height="400px" frameborder="0">
-    Sorry, your browser doesn't support iframes.
-</iframe>
-
-Flott mynd 2:
-<iframe src="{{page.avg_price_per_m2_folium}}" width="100%" height="400px" frameborder="0">
-    Sorry, your browser doesn't support iframes.
-</iframe>
-
-Flott mynd 3:
-<iframe src="{{page.isolated_houses}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
 
@@ -104,4 +94,14 @@ Flott mynd 5:
 <iframe src="{{page.property_size_groups}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
+
+### For the odd ones
+If you would not like to live in hustle and bustled of Reykjavík (for an Icelandic standard at lest) then we made a little analysis for you *less social ones*. Below you can see the 3 most isolated houses that where sold 
+
+Flott mynd 3:
+<iframe src="{{page.isolated_houses}}" width="100%" height="400px" frameborder="0">
+    Sorry, your browser doesn't support iframes.
+</iframe>
+
+
 
