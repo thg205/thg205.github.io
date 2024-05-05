@@ -7,7 +7,7 @@ number-of-contracts-per-year: /assets/number_of_contracts_per_year.png
 number-of-contracts-per-year-with-rates: /assets/number_of_contracts_per_year_w_rates.png
 number-of-contracts-per-mun: /assets/number_of_contracts_per_mun.png
 bar-chart-statistics: /assets/bar_chart_statistics.png
-price_trend_bokeh: /assets/price_trend_mun.html
+price_trend_mun_bokeh: /assets/price_trend_mun.html
 price_trend_prop_type_bokeh: /assets/price_trend_prop_type.html
 avg_price_choro: /assets/avg_price_choro.html
 avg_price_per_m2_choro: /assets/avg_price_per_m2_choro.html
@@ -29,7 +29,7 @@ Mynd af **Bar chart municipality statistics:**
 
 Mynd af kúk:
 
-<iframe src="{{page.price_trend_bokeh}}" width="100%" height="600px" frameborder="0">
+<iframe src="{{page.price_trend_mun_bokeh}}" width="100%" height="600px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
 
