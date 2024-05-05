@@ -46,8 +46,8 @@ In Iceland there are about 60 municipalities, but many of them are small and not
 ![Bar-chart]({{page.bar-chart-statistics}}){:width="100%"}
 
 **Interesting insights:**
-    * The most expensive municipalities are Garðabær and Seltjarnarnes (think of Hellerup and Frederiksberg) but the cheapest ones are Fjarðarbyggð and Ísafjarðarbær located on the east- and westfjords with average driving time of about 10 hours to Reykjavík!
-    *
+* The most expensive municipalities are Garðabær and Seltjarnarnes (think of Hellerup and Frederiksberg) but the cheapest ones are Fjarðarbyggð and Ísafjarðarbær located on the east- and westfjords with average driving time of about 10 hours to Reykjavík!
+* 
 
 
 
