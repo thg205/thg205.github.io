@@ -17,8 +17,12 @@ isolated_houses: /assets/isolated_houses.html
 hist_best_buys: /assets/hist_best_buys.html
 property_size_groups: /assets/property_size_groups.html
 ---
-## The Icelandic housing market
-bla bla bla
+The housing market is a fascinating thing. For start, most of us need to have a roof over our head. And for others, what specifically we want to get out of our property can vary widely. Do we want to live in a brandnew penthous apartment down town or in a older more sophisticated house, in the suburbs, where the kids can run freely without having the risk of being crushed by a car. 
+The authors of this webpage have at least thought about those things, so when the Icelandic government (yes, Iceland not Denmark) decided to make public the purchase register of property purchase agreements from 2006 to the day to day, we were excited to explore the data and shed light on the Icelandic housing market (note: the authors are from Iceland so it's of particular interest).
+
+## The historical trends of the housing market
+
+To start it of, 
 
 Mynd af **Number of contracts per year:**
 
