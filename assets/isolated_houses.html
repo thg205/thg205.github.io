@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_6bdecc5453ddad00088be9833800e59a {
+                #map_25e3bb87367eb983b881238a3f2e935a {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,14 +39,24 @@
 <body>
     
     
-            <div class="folium-map" id="map_6bdecc5453ddad00088be9833800e59a" ></div>
+             <style>
+                 .map-title { 
+                     font-family: Arial, Helvetica, sans-serif; /* Example font */
+                     text-align: center;
+                     font-size: 14px; /* Adjust size as necessary */
+                 }
+             </style>
+             <h3 class="map-title"><b>Top 3 isolated houses in Iceland</b></h3>
+             
+    
+            <div class="folium-map" id="map_25e3bb87367eb983b881238a3f2e935a" ></div>
         
 </body>
 <script>
     
     
-            var map_6bdecc5453ddad00088be9833800e59a = L.map(
-                "map_6bdecc5453ddad00088be9833800e59a",
+            var map_25e3bb87367eb983b881238a3f2e935a = L.map(
+                "map_25e3bb87367eb983b881238a3f2e935a",
                 {
                     center: [64.9631, -19.0208],
                     crs: L.CRS.EPSG3857,
@@ -60,22 +70,22 @@
 
         
     
-            var tile_layer_c2ba9a1bcc09719e4cb0971a292660f4 = L.tileLayer(
+            var tile_layer_cec303b91d33f827c6d5a5453d2fc2cd = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_c2ba9a1bcc09719e4cb0971a292660f4.addTo(map_6bdecc5453ddad00088be9833800e59a);
+            tile_layer_cec303b91d33f827c6d5a5453d2fc2cd.addTo(map_25e3bb87367eb983b881238a3f2e935a);
         
     
-            var circle_3e4b91daa0b576eef3ae366f5b2971e7 = L.circle(
+            var circle_1d4506b7ad8dadfb3ee6025607f525e7 = L.circle(
                 [65.37536738, -15.88304681],
                 {"bubblingMouseEvents": true, "color": "#FFD700", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFD700", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10744.129100097474, "stroke": true, "weight": 3}
-            ).addTo(map_6bdecc5453ddad00088be9833800e59a);
+            ).addTo(map_25e3bb87367eb983b881238a3f2e935a);
         
     
-            circle_3e4b91daa0b576eef3ae366f5b2971e7.bindTooltip(
+            circle_1d4506b7ad8dadfb3ee6025607f525e7.bindTooltip(
                 `<div>
                      Address: Möðrudalur<br>Type: Private house<br>Purchase Price: 10.81 m ISK<br>Year Built: 2007<br>Last Purchase Date: 2012-01-25<br>Isolation Score: 42.98 km
                  </div>`,
@@ -83,13 +93,13 @@
             );
         
     
-            var circle_82843a3e57e41e890f191c3a7e308a4e = L.circle(
+            var circle_6a348b08e69c696ee87f16d56e3e37f6 = L.circle(
                 [65.19068424, -15.24515731],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
-            ).addTo(map_6bdecc5453ddad00088be9833800e59a);
+            ).addTo(map_25e3bb87367eb983b881238a3f2e935a);
         
     
-            circle_82843a3e57e41e890f191c3a7e308a4e.bindTooltip(
+            circle_6a348b08e69c696ee87f16d56e3e37f6.bindTooltip(
                 `<div>
                      Neighbour of Möðrudalur:<br>Address: Klaustursel  lóð 1<br>
                  </div>`,
@@ -97,13 +107,13 @@
             );
         
     
-            var circle_8271be558305f265290ba7ca40d771a2 = L.circle(
+            var circle_322affcb8321bb8431fcd81bbaf247b3 = L.circle(
                 [65.69431407, -16.20882026],
                 {"bubblingMouseEvents": true, "color": "#C0C0C0", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#C0C0C0", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8038.585650621146, "stroke": true, "weight": 3}
-            ).addTo(map_6bdecc5453ddad00088be9833800e59a);
+            ).addTo(map_25e3bb87367eb983b881238a3f2e935a);
         
     
-            circle_8271be558305f265290ba7ca40d771a2.bindTooltip(
+            circle_322affcb8321bb8431fcd81bbaf247b3.bindTooltip(
                 `<div>
                      Address: Hólssel  lóð<br>Type: Private house<br>Purchase Price: 5.5 m ISK<br>Year Built: 1939<br>Last Purchase Date: 2012-10-04<br>Isolation Score: 32.15 km
                  </div>`,
@@ -111,13 +121,13 @@
             );
         
     
-            var circle_752f681fbab15f23fdcc4f8a78708a3d = L.circle(
+            var circle_d02304298294268e2ccdd43fb0778700 = L.circle(
                 [65.64166816, -16.89699853],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
-            ).addTo(map_6bdecc5453ddad00088be9833800e59a);
+            ).addTo(map_25e3bb87367eb983b881238a3f2e935a);
         
     
-            circle_752f681fbab15f23fdcc4f8a78708a3d.bindTooltip(
+            circle_d02304298294268e2ccdd43fb0778700.bindTooltip(
                 `<div>
                      Neighbour of Hólssel  lóð:<br>Address: Klappahraun 16C<br>
                  </div>`,
@@ -125,13 +135,13 @@
             );
         
     
-            var circle_2263b4ebff4bf5695bcf981846bf6323 = L.circle(
+            var circle_206b877d76f5dae3404c006a816b0836 = L.circle(
                 [64.13384927, -16.06687012],
                 {"bubblingMouseEvents": true, "color": "#CD7F23", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#CD7F23", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6491.341013875579, "stroke": true, "weight": 3}
-            ).addTo(map_6bdecc5453ddad00088be9833800e59a);
+            ).addTo(map_25e3bb87367eb983b881238a3f2e935a);
         
     
-            circle_2263b4ebff4bf5695bcf981846bf6323.bindTooltip(
+            circle_206b877d76f5dae3404c006a816b0836.bindTooltip(
                 `<div>
                      Address: Reynivellir  Ekra<br>Type: Private house<br>Purchase Price: 155.0 m ISK<br>Year Built: 2019<br>Last Purchase Date: 2021-03-15<br>Isolation Score: 25.97 km
                  </div>`,
@@ -139,13 +149,13 @@
             );
         
     
-            var circle_982c22ad59c43bbdaec8fa2c47a32f64 = L.circle(
+            var circle_15b71932ffe2681da95f43ac08133983 = L.circle(
                 [64.18142023, -15.89269273],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
-            ).addTo(map_6bdecc5453ddad00088be9833800e59a);
+            ).addTo(map_25e3bb87367eb983b881238a3f2e935a);
         
     
-            circle_982c22ad59c43bbdaec8fa2c47a32f64.bindTooltip(
+            circle_15b71932ffe2681da95f43ac08133983.bindTooltip(
                 `<div>
                      Neighbour of Reynivellir  Ekra:<br>Address: Kálfafell Upphús<br>
                  </div>`,
