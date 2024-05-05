@@ -66,6 +66,19 @@ Meiri kúkur og piss:
     Sorry, your browser doesn't support iframes.
 </iframe>
 
+<div style="display: flex; justify-content: space-between;">
+    <div style="width: 50%; padding-right: 5px;">
+        <iframe src="{{page.avg_price_choro}}" style="width: 75%; height: 400px; border: none;">
+            Sorry, your browser doesn't support iframes.
+        </iframe>
+    </div>
+    <div style="width: 50%; padding-left: 5px;">
+        <iframe src="{{page.avg_price_per_m2_choro}}" style="width: 75%; height: 400px; border: none;">
+            Sorry, your browser doesn't support iframes.
+        </iframe>
+    </div>
+</div>
+
 
 Flott mynd 1:
 
