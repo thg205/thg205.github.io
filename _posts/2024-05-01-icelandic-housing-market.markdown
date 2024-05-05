@@ -11,6 +11,11 @@ price_trend_mun_bokeh: /assets/price_trend_mun.html
 price_trend_prop_type_bokeh: /assets/price_trend_prop_type.html
 avg_price_choro: /assets/avg_price_choro.html
 avg_price_per_m2_choro: /assets/avg_price_per_m2_choro.html
+avg_price_folium: /assets/avg_price_folium.html
+avg_price_per_m2_folium: /assets/avg_price_per_m2_folium.html
+isolated_houses: /assets/isolated_houses.html
+hist_best_buys: /assets/hist_best_buys.html
+property_size_groups: /assets/property_size_groups.html
 ---
 ## The Icelandic housing market
 bla bla bla
@@ -43,6 +48,12 @@ Kúkur og piss:
 <iframe src="{{page.avg_price_choro}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
+
+Meiri kúkur og piss:
+<iframe src="{{page.avg_price_per_m2_choro}}" width="100%" height="400px" frameborder="0">
+    Sorry, your browser doesn't support iframes.
+</iframe>
+
 
 Meiri kúkur og piss:
 <iframe src="{{page.avg_price_per_m2_choro}}" width="100%" height="400px" frameborder="0">
