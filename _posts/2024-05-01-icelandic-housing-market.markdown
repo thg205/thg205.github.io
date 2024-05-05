@@ -55,7 +55,29 @@ Meiri kúkur og piss:
 </iframe>
 
 
-Meiri kúkur og piss:
-<iframe src="{{page.avg_price_per_m2_choro}}" width="100%" height="400px" frameborder="0">
+Flott mynd 1:
+
+<iframe src="{{page.avg_price_folium}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
+
+Flott mynd 2:
+<iframe src="{{page.avg_price_per_m2_folium}}" width="100%" height="400px" frameborder="0">
+    Sorry, your browser doesn't support iframes.
+</iframe>
+
+Flott mynd 3:
+<iframe src="{{page.isolated_houses}}" width="100%" height="400px" frameborder="0">
+    Sorry, your browser doesn't support iframes.
+</iframe>
+
+Flott mynd 4:
+<iframe src="{{page.hist_best_buys}}" width="100%" height="400px" frameborder="0">
+    Sorry, your browser doesn't support iframes.
+</iframe>
+
+Flott mynd 5:
+<iframe src="{{page.property_size_groups}}" width="100%" height="400px" frameborder="0">
+    Sorry, your browser doesn't support iframes.
+</iframe>
+
