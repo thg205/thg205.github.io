@@ -23,16 +23,16 @@ For some, it's a sleek, modern condo downtown, close to the buzz of city life. F
 
 The folks behind this website understand that perfectly. When they heard Iceland (yes, Iceland, not Denmark – plot twist!) made a bunch of housing data public, they were like "Let's dive in and see what makes Iceland's housing market tick!" (Especially since they're Icelandic...).
 
-## Looking at historical trends
-Get ready to dive into the Icelandic housing market! Let's start by examining historical purchase agreements from 2006 to 2023. This graph reveals a compelling trend. We see a peak in 2007, followed by a significant dip in 2009. This decline coincides with the 2008 financial crisis, a pivotal moment impacting the global economy, including Iceland's housing market.
+### Looking at historical trends
+**Diving in:** Let's start by examining historical purchase agreements from 2006 to 2023. This graph reveals a compelling trend. We see a peak in 2007, followed by a significant dip in 2009. This decline coincides with the 2008 financial crisis, a pivotal moment impacting the global economy, including Iceland's housing market.
 
 Moving forward, we witness a steady rise in contracts, culminating in record years around 2020/2021.  This surge likely reflects the impact of COVID-19, with many seeking new living arrangements, perhaps driven by remote work opportunities.
 
 ![Bar-chart]({{page.number-of-contracts-per-year}}){:width="100%"}
 
-So, what's the secret sauce behind these market ups and downs? It all boils down to those pesky mortgage interest rates. These rates are like tiny dials that the Central Bank of Iceland uses to control the economy. In 2009, inflation was a runaway hamster on a wheel, so they cranked up the rates to slow things down. But by 2022/2021, the economy needed a jumpstart, so they lowered the rates again.
+So, what's the *secret sauce* behind these market ups and downs? It boils down to those pesky mortgage interest rates (and other factors but this is much more fun to look at). These rates are like tiny dials that the Central Bank of Iceland uses to control the economy. In 2009, inflation was a runaway hamster on a wheel, so they cranked up the rates to slow things down. But by 2022/2021, the economy needed a jumpstart, so they lowered the rates again.
 
-The graph showcases the average mortgage rates (indexed and non-indexed) alongside the number of contracts. Observe how rates climbed in 2008. Rates then dipped in 2013, followed by a period of sustained growth in the housing market, likely fueled by increased savings during the COVID-19 lockdowns, hence the spike in 2020/2021.
+The graph showcases the average mortgage rates (indexed and non-indexed) alongside the number of contracts. Observe how rates climbed in 2008. Rates then dipped in 2013, followed by a period of sustained growth in the housing market, Then the top was found in 2020/2021, likely fueled by increased savings during the COVID-19 lockdowns.
 
 Mynd af **Number of contracts per year with index rates:**
 
@@ -40,11 +40,18 @@ Mynd af **Number of contracts per year with index rates:**
 
 This exploration provides a glimpse into the dynamic relationship between mortgage interest rates and the Icelandic housing market. By examining trends, we gain valuable insights into the factors shaping this ever-evolving landscape.
 
-Mynd af **Bar chart municipality statistics:**
+### Details of properties available
+In Iceland there are about 60 municipalities, but many of them are small and not as interesting, so these are the 16 biggest, most of them close to **Reykjavík**, the capital city. Let's look at the different details per municipality, where we draw some insights about what you could be expecting when buying a property in one of the municipalities.
 
 ![Bar-chart]({{page.bar-chart-statistics}}){:width="100%"}
 
-Mynd af kúk:
+**Interesting insights:**
+    * The most expensive municipalities are Garðabær and Seltjarnarnes (think of Hellerup and Frederiksberg) but the cheapest ones are Fjarðarbyggð and Ísafjarðarbær located on the east- and westfjords with average driving time of about 10 hours to Reykjavík!
+    *
+
+
+
+Chart below is interactive! Please have some fun clicking on different municipalities
 
 <iframe src="{{page.price_trend_mun_bokeh}}" width="100%" height="600px" frameborder="0">
     Sorry, your browser doesn't support iframes.
