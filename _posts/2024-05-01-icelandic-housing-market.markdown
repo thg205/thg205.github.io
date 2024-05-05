@@ -50,7 +50,7 @@ In Iceland there are about 60 municipalities, but many of them are small and not
 * Oldest houses are in Reykjavík, no real surprise there! But maybe more interesting, for most other municipalities most properties are built from 2000, indicating that many new properties have been built the last 20 years.
 * Again, we see Garðabær and Seltjarnarnes have the biggest properties on average but it's Fjarðarbyggð that has the most rooms on average, or 3.5 rooms on average. I guess they need there space there in the eastfjords!
 
-Now let's compare the price trends. Here, we have calculated a standardized price per municipality to be able to compare them to each other. Chart below is interactive! Please have some fun clicking on different municipalities
+Now let's compare the price trends. Here, we have calculated a standardized price per municipality to be able to compare them to each other. Chart below is interactive! Please have some fun clicking on different municipalities.
 
 <iframe src="{{page.price_trend_mun_bokeh}}" width="100%" height="600px" frameborder="0">
     Sorry, your browser doesn't support iframes.
@@ -58,23 +58,26 @@ Now let's compare the price trends. Here, we have calculated a standardized pric
 
 Here we see that most of them follow the same price trends, but there seem to be differentiating the most in the most recent years.
 
-Another question might arise, if there are some different price trends when looking at the type of property: **Apartment**, **Ples/semi house** and **Private house**. I wouldn't have called it, but all the trends seem to be following the same path. 
+Another question might arise, if there are some different price trends when looking at the type of property: **Apartment**, **Plexi/Semi house** and **Private house**. I wouldn't have called it, but all the trends seem to be following the same path. 
 
 <iframe src="{{page.price_trend_prop_type_bokeh}}" width="100%" height="600px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
 
-## 
+Now again looking at Iceland as a whole, we see what regions are the most expensive, both in regards of purchase price of property and the $m^2$ price. By hovering ower the graph with your cursor, your able to gain more informations per region!
 
-Kúkur og piss:
 <iframe src="{{page.avg_price_choro}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
 
-Meiri kúkur og piss:
 <iframe src="{{page.avg_price_per_m2_choro}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
+
+**It's apparent that*:* The capital region is both the most expensive via purcahse price and the $m^2$ price. Also, true for other regions, the graphs do not change, meaning both pruchase price and $m^2$ price are similar per region.
+
+### Zooming in: The Capital Region of Iceland
+Most people live in Reykjavík or close by municipalities. Therefor, the most interesting thing to investigate would be via postal code, that is, the postal codes that are associated with "The Caoital Region of Iceland".
 
 Flott mynd 1:
 
