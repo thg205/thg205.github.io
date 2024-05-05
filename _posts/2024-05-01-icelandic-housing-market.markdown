@@ -16,6 +16,7 @@ avg_price_per_m2_folium: /assets/avg_price_per_m2_folium.html
 isolated_houses: /assets/isolated_houses.html
 hist_best_buys: /assets/hist_best_buys.html
 property_size_groups: /assets/property_size_groups.html
+oldest_houses: /assets/oldest_houses.html
 ---
 **Imagine this:** You're scrolling through endless homes online, picturing yourself kicking back in a rooftop jacuzzi or having backyard barbecues with the family. That's the beauty (and maybe the madness) of the housing market! It's all about finding the place that matches your vibe.
 
@@ -103,5 +104,10 @@ Flott mynd 3:
     Sorry, your browser doesn't support iframes.
 </iframe>
 
+
+Oldest houses:
+<iframe src="{{page.oldest_houses}}" width="100%" height="400px" frameborder="0">
+    Sorry, your browser doesn't support iframes.
+</iframe>
 
 
