@@ -75,16 +75,23 @@ Now again looking at Iceland as a whole, we see what regions are the most expens
     Sorry, your browser doesn't support iframes.
 </iframe>
 
-**It's apparent that:** The capital region is both the most expensive via purchase price and the square meter price. Also, true for other regions, the graphs do not change, meaning both pruchase price and square meter price are similar per region.
+**It's apparent:** The capital region is both the most expensive via purchase price and the square meter price. Also, true for other regions, the graphs do not change, meaning both pruchase price and square meter price are similar per region.
 
 ### Zooming in: The Capital Region of Iceland
-Most people live in Reykjavík or close by municipalities. Therefor, the most interesting thing to investigate would be via postal code, that is, the postal codes that are associated with "The Capital Region of Iceland".
+Most people live in Reykjavík or close by municipalities. Therefor, the most interesting thing to investigate would be via postal code, that is, the postal codes that are associated with "The Capital Region of Iceland". The prices are often heavily influenced by postal code.
 
-Flott mynd 1:
+Take a look at the most expensive postal codes in this fun and interactive map:
 
 <iframe src="{{page.avg_price_folium}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
+
+**Interesting insights:**
+* Postal code 111 is by far the cheapest one, average price of 31.16 mISK which is approximately 1.5 mDKK
+* But perhaps surprising postal code 102 is the most expensive, average price of 67.34 mISK or approximately 3.37 mDKK
+* Also, even though 270 (Mosfellsbær) is the furthest away from the city center of Reykjavík, then it's still sitting at the middle of the bunch 
+
+Next plot is for the business savvy - always wanting to make the much money - ones...historical "best buys" where we have calculated the percentage change since the property was bought, comparing purchase price to current property value - the value that indicates what you could most likely get for your apartment when putting it up for sale.
 
 Flott mynd 4:
 <iframe src="{{page.hist_best_buys}}" width="100%" height="400px" frameborder="0">
@@ -97,13 +104,14 @@ Flott mynd 5:
 </iframe>
 
 ### For the odd ones
-If you would not like to live in hustle and bustled of Reykjavík (for an Icelandic standard at lest) then we made a little analysis for you *less social ones*. Below you can see the 3 most isolated houses that where sold 
+If you would not like to live in the hustle and bustled of Reykjavík (for an Icelandic standard at lest) then we made a little analysis for the *less social ones* of the bunch. If you dream of isolation Iceland is the place to be, and Bbelow you can see the 3 most isolated houses that where sold between 2006-2024. 
 
 Flott mynd 3:
 <iframe src="{{page.isolated_houses}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
 
+Or for the other ones that don't like all the newest and latest, than here is an interactive map showcasing the oldest houses sold between 2006-2021. If your not afraid of mold and leaky piping... move the courser over the map to get more details about each house!
 
 Oldest houses:
 <iframe src="{{page.oldest_houses}}" width="100%" height="400px" frameborder="0">
