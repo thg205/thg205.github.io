@@ -12,7 +12,7 @@
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_3b66af2dab2f807f3cb2c5fa86e03dfc {
+                #map_3b74d7e05c034c2480dd5b65465458ff {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -50,14 +50,14 @@
              <h3 class="map-title"><b>Best historical buys of properties in Iceland</b></h3>
              
     
-            <div class="folium-map" id="map_3b66af2dab2f807f3cb2c5fa86e03dfc" ></div>
+            <div class="folium-map" id="map_3b74d7e05c034c2480dd5b65465458ff" ></div>
         
 </body>
 <script>
     
     
-            var map_3b66af2dab2f807f3cb2c5fa86e03dfc = L.map(
-                "map_3b66af2dab2f807f3cb2c5fa86e03dfc",
+            var map_3b74d7e05c034c2480dd5b65465458ff = L.map(
+                "map_3b74d7e05c034c2480dd5b65465458ff",
                 {
                     center: [64.128288, -21.827774],
                     crs: L.CRS.EPSG3857,
@@ -71,27 +71,24 @@
 
         
     
-            var tile_layer_bf599d473cd61539922a9bafe9d44bab = L.tileLayer(
-                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
-            );
+            var tile_layer_4e4a6d25019454997048e7943adf62df = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca target=\"_blank\" href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca target=\"_blank\" href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3b74d7e05c034c2480dd5b65465458ff);
         
     
-            tile_layer_bf599d473cd61539922a9bafe9d44bab.addTo(map_3b66af2dab2f807f3cb2c5fa86e03dfc);
-        
-    
-            var feature_group_6bf4e6c519f2a03498b5098cb67ab325 = L.featureGroup(
+            var feature_group_e0a546d66d61d5e34b187b011fa1307e = L.featureGroup(
                 {}
-            );
+            ).addTo(map_3b74d7e05c034c2480dd5b65465458ff);
         
     
-            var circle_c2bfed4605324edc17de1b96f18dc8ce = L.circle(
+            var circle_63b61346123664e56b61c2604c9256f9 = L.circle(
                 [64.14273639, -21.8606254],
                 {"bubblingMouseEvents": true, "color": "#d9210eff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d9210eff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 223.10000000000002, "stroke": true, "weight": 3}
-            ).addTo(feature_group_6bf4e6c519f2a03498b5098cb67ab325);
+            ).addTo(feature_group_e0a546d66d61d5e34b187b011fa1307e);
         
     
-            circle_c2bfed4605324edc17de1b96f18dc8ce.bindTooltip(
+            circle_63b61346123664e56b61c2604c9256f9.bindTooltip(
                 `<div>
                      Address: Langholtsvegur 44<br>Type: Apartment<br>Purchase price: 25.0 m ISK<br>Current property value: 136.55 m ISK<br>Last Purchase Date: 2018-05-09<br>Percentage value change: 446.20 %
                  </div>`,
@@ -99,13 +96,13 @@
             );
         
     
-            var circle_f8254fdaede7c41f7496a49aa4dc21dc = L.circle(
+            var circle_d83f7874cfa967b2b33b6a5dcf4c72b9 = L.circle(
                 [64.1079762, -21.83016459],
                 {"bubblingMouseEvents": true, "color": "#fdae62ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fdae62ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 182.5, "stroke": true, "weight": 3}
-            ).addTo(feature_group_6bf4e6c519f2a03498b5098cb67ab325);
+            ).addTo(feature_group_e0a546d66d61d5e34b187b011fa1307e);
         
     
-            circle_f8254fdaede7c41f7496a49aa4dc21dc.bindTooltip(
+            circle_d83f7874cfa967b2b33b6a5dcf4c72b9.bindTooltip(
                 `<div>
                      Address: Hjaltabakki 18<br>Type: Apartment<br>Purchase price: 11.0 m ISK<br>Current property value: 51.15 m ISK<br>Last Purchase Date: 2016-11-14<br>Percentage value change: 365.00 %
                  </div>`,
@@ -113,13 +110,13 @@
             );
         
     
-            var circle_debda77aa018a1a4f831b09c4caea07f = L.circle(
+            var circle_7d1ec2aa23671d082767e81ebae39132 = L.circle(
                 [64.10952923, -21.89723438],
                 {"bubblingMouseEvents": true, "color": "#a4b7e7ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a4b7e7ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 140.5263157894737, "stroke": true, "weight": 3}
-            ).addTo(feature_group_6bf4e6c519f2a03498b5098cb67ab325);
+            ).addTo(feature_group_e0a546d66d61d5e34b187b011fa1307e);
         
     
-            circle_debda77aa018a1a4f831b09c4caea07f.bindTooltip(
+            circle_7d1ec2aa23671d082767e81ebae39132.bindTooltip(
                 `<div>
                      Address: Grænatunga 5<br>Type: Apartment<br>Purchase price: 9.5 m ISK<br>Current property value: 36.2 m ISK<br>Last Purchase Date: 2016-10-12<br>Percentage value change: 281.05 %
                  </div>`,
@@ -127,13 +124,13 @@
             );
         
     
-            var circle_588819c2912c2474fde8aebc05c99d32 = L.circle(
+            var circle_8feb2f0128bc13eaff99854116a40d2b = L.circle(
                 [64.09848865, -21.8528215],
                 {"bubblingMouseEvents": true, "color": "#92a7e1ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#92a7e1ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 135.4, "stroke": true, "weight": 3}
-            ).addTo(feature_group_6bf4e6c519f2a03498b5098cb67ab325);
+            ).addTo(feature_group_e0a546d66d61d5e34b187b011fa1307e);
         
     
-            circle_588819c2912c2474fde8aebc05c99d32.bindTooltip(
+            circle_8feb2f0128bc13eaff99854116a40d2b.bindTooltip(
                 `<div>
                      Address: Staðarsel 2<br>Type: Apartment<br>Purchase price: 12.5 m ISK<br>Current property value: 46.35 m ISK<br>Last Purchase Date: 2019-04-01<br>Percentage value change: 270.80 %
                  </div>`,
@@ -141,13 +138,13 @@
             );
         
     
-            var circle_240b7f4e27a4283639656222bcb74a23 = L.circle(
-                [64.16850898, -21.6629923],
+            var circle_7edf854c33583bc20930a5eefb4616e6 = L.circle(
+                [64.16850898, -21.662992300000003],
                 {"bubblingMouseEvents": true, "color": "#7c90d9ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7c90d9ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 129.0, "stroke": true, "weight": 3}
-            ).addTo(feature_group_6bf4e6c519f2a03498b5098cb67ab325);
+            ).addTo(feature_group_e0a546d66d61d5e34b187b011fa1307e);
         
     
-            circle_240b7f4e27a4283639656222bcb74a23.bindTooltip(
+            circle_7edf854c33583bc20930a5eefb4616e6.bindTooltip(
                 `<div>
                      Address: Gerplustræti 27<br>Type: Apartment<br>Purchase price: 25.0 m ISK<br>Current property value: 89.5 m ISK<br>Last Purchase Date: 2021-06-23<br>Percentage value change: 258.00 %
                  </div>`,
@@ -155,13 +152,13 @@
             );
         
     
-            var circle_4772f31a3c77ff707fb8b6a8a2bdef40 = L.circle(
+            var circle_0757461be5375d1ad67fd9fee1041f01 = L.circle(
                 [64.14323305, -21.91714231],
                 {"bubblingMouseEvents": true, "color": "#788dd7ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#788dd7ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 128.0357142857143, "stroke": true, "weight": 3}
-            ).addTo(feature_group_6bf4e6c519f2a03498b5098cb67ab325);
+            ).addTo(feature_group_e0a546d66d61d5e34b187b011fa1307e);
         
     
-            circle_4772f31a3c77ff707fb8b6a8a2bdef40.bindTooltip(
+            circle_0757461be5375d1ad67fd9fee1041f01.bindTooltip(
                 `<div>
                      Address: Laugavegur 98<br>Type: Apartment<br>Purchase price: 14.0 m ISK<br>Current property value: 49.85 m ISK<br>Last Purchase Date: 2022-10-12<br>Percentage value change: 256.07 %
                  </div>`,
@@ -169,13 +166,13 @@
             );
         
     
-            var circle_3e65686f1ee9e9b797717ba88aa5ad52 = L.circle(
+            var circle_06dfd297c616225d2baccdf2936cb677 = L.circle(
                 [64.13390815, -21.92756533],
                 {"bubblingMouseEvents": true, "color": "#6d82d3ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6d82d3ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 124.8888888888889, "stroke": true, "weight": 3}
-            ).addTo(feature_group_6bf4e6c519f2a03498b5098cb67ab325);
+            ).addTo(feature_group_e0a546d66d61d5e34b187b011fa1307e);
         
     
-            circle_3e65686f1ee9e9b797717ba88aa5ad52.bindTooltip(
+            circle_06dfd297c616225d2baccdf2936cb677.bindTooltip(
                 `<div>
                      Address: Valshlíð 14<br>Type: Apartment<br>Purchase price: 45.0 m ISK<br>Current property value: 157.4 m ISK<br>Last Purchase Date: 2020-10-29<br>Percentage value change: 249.78 %
                  </div>`,
@@ -183,13 +180,13 @@
             );
         
     
-            var circle_3e467714907efd5c1e98be46d0945885 = L.circle(
+            var circle_a42303e7fc397d8529669f5aba7c0995 = L.circle(
                 [64.14473261, -21.9162365],
                 {"bubblingMouseEvents": true, "color": "#6277cfff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6277cfff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 121.7391304347826, "stroke": true, "weight": 3}
-            ).addTo(feature_group_6bf4e6c519f2a03498b5098cb67ab325);
+            ).addTo(feature_group_e0a546d66d61d5e34b187b011fa1307e);
         
     
-            circle_3e467714907efd5c1e98be46d0945885.bindTooltip(
+            circle_a42303e7fc397d8529669f5aba7c0995.bindTooltip(
                 `<div>
                      Address: Skúlagata 42<br>Type: Apartment<br>Purchase price: 20.7 m ISK<br>Current property value: 71.1 m ISK<br>Last Purchase Date: 2021-06-11<br>Percentage value change: 243.48 %
                  </div>`,
@@ -197,13 +194,13 @@
             );
         
     
-            var circle_a936e8349a4eeaccd0fe3b4a4a37bcd3 = L.circle(
+            var circle_35b4d5a76dda991e694477e573130ebd = L.circle(
                 [64.11318029, -21.89741201],
                 {"bubblingMouseEvents": true, "color": "#5f73ceff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5f73ceff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 120.71428571428572, "stroke": true, "weight": 3}
-            ).addTo(feature_group_6bf4e6c519f2a03498b5098cb67ab325);
+            ).addTo(feature_group_e0a546d66d61d5e34b187b011fa1307e);
         
     
-            circle_a936e8349a4eeaccd0fe3b4a4a37bcd3.bindTooltip(
+            circle_35b4d5a76dda991e694477e573130ebd.bindTooltip(
                 `<div>
                      Address: Auðbrekka 20<br>Type: Apartment<br>Purchase price: 21.0 m ISK<br>Current property value: 71.7 m ISK<br>Last Purchase Date: 2018-08-08<br>Percentage value change: 241.43 %
                  </div>`,
@@ -211,13 +208,13 @@
             );
         
     
-            var circle_74942de9e90a92560a9c985786ec798e = L.circle(
+            var circle_8be1aeb667794e98a538ddf127b5d37e = L.circle(
                 [64.07333398, -21.95556705],
                 {"bubblingMouseEvents": true, "color": "#5d71ceff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#5d71ceff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 120.24999999999999, "stroke": true, "weight": 3}
-            ).addTo(feature_group_6bf4e6c519f2a03498b5098cb67ab325);
+            ).addTo(feature_group_e0a546d66d61d5e34b187b011fa1307e);
         
     
-            circle_74942de9e90a92560a9c985786ec798e.bindTooltip(
+            circle_8be1aeb667794e98a538ddf127b5d37e.bindTooltip(
                 `<div>
                      Address: Norðurbraut 33<br>Type: Apartment<br>Purchase price: 20.0 m ISK<br>Current property value: 68.1 m ISK<br>Last Purchase Date: 2020-11-12<br>Percentage value change: 240.50 %
                  </div>`,
@@ -225,13 +222,13 @@
             );
         
     
-            var circle_9999f56a4748e4106e010451536ddf0f = L.circle(
+            var circle_e0a3b1aecaa80c2ce4e670ce078b043a = L.circle(
                 [64.15027591, -21.95593945],
                 {"bubblingMouseEvents": true, "color": "#596eccff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#596eccff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 119.1860465116279, "stroke": true, "weight": 3}
-            ).addTo(feature_group_6bf4e6c519f2a03498b5098cb67ab325);
+            ).addTo(feature_group_e0a546d66d61d5e34b187b011fa1307e);
         
     
-            circle_9999f56a4748e4106e010451536ddf0f.bindTooltip(
+            circle_e0a3b1aecaa80c2ce4e670ce078b043a.bindTooltip(
                 `<div>
                      Address: Framnesvegur 27<br>Type: Apartment<br>Purchase price: 21.5 m ISK<br>Current property value: 72.75 m ISK<br>Last Purchase Date: 2018-08-03<br>Percentage value change: 238.37 %
                  </div>`,
@@ -239,13 +236,13 @@
             );
         
     
-            var circle_a8275c0823d221bfca848162378294ca = L.circle(
+            var circle_ebee51255c4755cb4f0118569bf2d199 = L.circle(
                 [64.14107355, -21.91290447],
                 {"bubblingMouseEvents": true, "color": "#4356c4ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4356c4ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 112.68656716417908, "stroke": true, "weight": 3}
-            ).addTo(feature_group_6bf4e6c519f2a03498b5098cb67ab325);
+            ).addTo(feature_group_e0a546d66d61d5e34b187b011fa1307e);
         
     
-            circle_a8275c0823d221bfca848162378294ca.bindTooltip(
+            circle_ebee51255c4755cb4f0118569bf2d199.bindTooltip(
                 `<div>
                      Address: Þverholt 15<br>Type: Apartment<br>Purchase price: 30.15 m ISK<br>Current property value: 98.1 m ISK<br>Last Purchase Date: 2019-01-10<br>Percentage value change: 225.37 %
                  </div>`,
@@ -253,13 +250,13 @@
             );
         
     
-            var circle_1572ec2d232fcd7cfac66fe86c90b627 = L.circle(
+            var circle_35f0573c3e7f3b1cae728e896191b728 = L.circle(
                 [64.1007651, -21.89007384],
                 {"bubblingMouseEvents": true, "color": "#4254c3ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4254c3ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 112.24489795918366, "stroke": true, "weight": 3}
-            ).addTo(feature_group_6bf4e6c519f2a03498b5098cb67ab325);
+            ).addTo(feature_group_e0a546d66d61d5e34b187b011fa1307e);
         
     
-            circle_1572ec2d232fcd7cfac66fe86c90b627.bindTooltip(
+            circle_35f0573c3e7f3b1cae728e896191b728.bindTooltip(
                 `<div>
                      Address: Gullsmári 10<br>Type: Apartment<br>Purchase price: 19.6 m ISK<br>Current property value: 63.6 m ISK<br>Last Purchase Date: 2016-02-24<br>Percentage value change: 224.49 %
                  </div>`,
@@ -267,13 +264,13 @@
             );
         
     
-            var circle_e2938c66f58a7d66511e2f0d5858fdbf = L.circle(
+            var circle_f5034eaef9b7cc73232ff76e5a7f1343 = L.circle(
                 [64.12723176, -21.88805185],
                 {"bubblingMouseEvents": true, "color": "#4254c3ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4254c3ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 112.22222222222223, "stroke": true, "weight": 3}
-            ).addTo(feature_group_6bf4e6c519f2a03498b5098cb67ab325);
+            ).addTo(feature_group_e0a546d66d61d5e34b187b011fa1307e);
         
     
-            circle_e2938c66f58a7d66511e2f0d5858fdbf.bindTooltip(
+            circle_f5034eaef9b7cc73232ff76e5a7f1343.bindTooltip(
                 `<div>
                      Address: Listabraut 7<br>Type: Apartment<br>Purchase price: 22.5 m ISK<br>Current property value: 73.0 m ISK<br>Last Purchase Date: 2018-05-07<br>Percentage value change: 224.44 %
                  </div>`,
@@ -281,13 +278,13 @@
             );
         
     
-            var circle_2cbb3704a0b3889410f01f23f3c9118f = L.circle(
+            var circle_dd30ce1f596b8bf2406a1f0cab383b13 = L.circle(
                 [64.07254627, -21.96385089],
                 {"bubblingMouseEvents": true, "color": "#4154c3ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4154c3ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 112.01923076923079, "stroke": true, "weight": 3}
-            ).addTo(feature_group_6bf4e6c519f2a03498b5098cb67ab325);
+            ).addTo(feature_group_e0a546d66d61d5e34b187b011fa1307e);
         
     
-            circle_2cbb3704a0b3889410f01f23f3c9118f.bindTooltip(
+            circle_dd30ce1f596b8bf2406a1f0cab383b13.bindTooltip(
                 `<div>
                      Address: Hellisgata 33<br>Type: Apartment<br>Purchase price: 20.8 m ISK<br>Current property value: 67.4 m ISK<br>Last Purchase Date: 2016-01-12<br>Percentage value change: 224.04 %
                  </div>`,
@@ -295,21 +292,18 @@
             );
         
     
-            feature_group_6bf4e6c519f2a03498b5098cb67ab325.addTo(map_3b66af2dab2f807f3cb2c5fa86e03dfc);
-        
-    
-            var feature_group_84f748d1acdcea5e72b15d21a68e5ae9 = L.featureGroup(
+            var feature_group_8fe12d300db1aee473f8ababee1f6423 = L.featureGroup(
                 {}
-            );
+            ).addTo(map_3b74d7e05c034c2480dd5b65465458ff);
         
     
-            var circle_12022509449e10763f93cac7830dd09b = L.circle(
+            var circle_58aa54b5006892cf8f0ef288f67252d0 = L.circle(
                 [64.11491084, -21.90737153],
                 {"bubblingMouseEvents": true, "color": "#e3dac2ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e3dac2ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 159.21428571428572, "stroke": true, "weight": 3}
-            ).addTo(feature_group_84f748d1acdcea5e72b15d21a68e5ae9);
+            ).addTo(feature_group_8fe12d300db1aee473f8ababee1f6423);
         
     
-            circle_12022509449e10763f93cac7830dd09b.bindTooltip(
+            circle_58aa54b5006892cf8f0ef288f67252d0.bindTooltip(
                 `<div>
                      Address: Marbakkabraut 9A<br>Type: Private house<br>Purchase price: 35.0 m ISK<br>Current property value: 146.45 m ISK<br>Last Purchase Date: 2018-04-12<br>Percentage value change: 318.43 %
                  </div>`,
@@ -317,13 +311,13 @@
             );
         
     
-            var circle_418c51dd8311799b2878698053be535f = L.circle(
+            var circle_a359fdb98b25a817839516f7f4d52538 = L.circle(
                 [64.11428018, -21.86566811],
                 {"bubblingMouseEvents": true, "color": "#bccef1ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bccef1ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 148.0666666666667, "stroke": true, "weight": 3}
-            ).addTo(feature_group_84f748d1acdcea5e72b15d21a68e5ae9);
+            ).addTo(feature_group_8fe12d300db1aee473f8ababee1f6423);
         
     
-            circle_418c51dd8311799b2878698053be535f.bindTooltip(
+            circle_a359fdb98b25a817839516f7f4d52538.bindTooltip(
                 `<div>
                      Address: Bæjartún 11<br>Type: Private house<br>Purchase price: 37.5 m ISK<br>Current property value: 148.55 m ISK<br>Last Purchase Date: 2020-11-25<br>Percentage value change: 296.13 %
                  </div>`,
@@ -331,13 +325,13 @@
             );
         
     
-            var circle_12df5fd196a6d3b5978ed13ea20fe4ea = L.circle(
+            var circle_2f594e7236109a5764fcabf162d3eff1 = L.circle(
                 [64.09167138, -21.88860981],
                 {"bubblingMouseEvents": true, "color": "#b0c3ecff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0c3ecff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 144.42708333333334, "stroke": true, "weight": 3}
-            ).addTo(feature_group_84f748d1acdcea5e72b15d21a68e5ae9);
+            ).addTo(feature_group_8fe12d300db1aee473f8ababee1f6423);
         
     
-            circle_12df5fd196a6d3b5978ed13ea20fe4ea.bindTooltip(
+            circle_2f594e7236109a5764fcabf162d3eff1.bindTooltip(
                 `<div>
                      Address: Eskiholt 12<br>Type: Private house<br>Purchase price: 48.0 m ISK<br>Current property value: 186.65 m ISK<br>Last Purchase Date: 2018-01-08<br>Percentage value change: 288.85 %
                  </div>`,
@@ -345,13 +339,13 @@
             );
         
     
-            var circle_b7ee1ada28eab2fb6116083be7975de1 = L.circle(
+            var circle_f2f1b956d4c8143c203d779306211905 = L.circle(
                 [64.15992336, -21.75079462],
                 {"bubblingMouseEvents": true, "color": "#b0c2ecff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b0c2ecff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 144.3103448275862, "stroke": true, "weight": 3}
-            ).addTo(feature_group_84f748d1acdcea5e72b15d21a68e5ae9);
+            ).addTo(feature_group_8fe12d300db1aee473f8ababee1f6423);
         
     
-            circle_b7ee1ada28eab2fb6116083be7975de1.bindTooltip(
+            circle_f2f1b956d4c8143c203d779306211905.bindTooltip(
                 `<div>
                      Address: Barðastaðir 59<br>Type: Private house<br>Purchase price: 29.0 m ISK<br>Current property value: 112.7 m ISK<br>Last Purchase Date: 2018-01-09<br>Percentage value change: 288.62 %
                  </div>`,
@@ -359,13 +353,13 @@
             );
         
     
-            var circle_cfc48cfb173fc84adad5b9890dd0c6f4 = L.circle(
+            var circle_95f26cff9af76528dc904a912fb957c1 = L.circle(
                 [64.08963107, -21.80398832],
                 {"bubblingMouseEvents": true, "color": "#7f93daff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7f93daff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 129.89076464746773, "stroke": true, "weight": 3}
-            ).addTo(feature_group_84f748d1acdcea5e72b15d21a68e5ae9);
+            ).addTo(feature_group_8fe12d300db1aee473f8ababee1f6423);
         
     
-            circle_cfc48cfb173fc84adad5b9890dd0c6f4.bindTooltip(
+            circle_95f26cff9af76528dc904a912fb957c1.bindTooltip(
                 `<div>
                      Address: Faxahvarf 2<br>Type: Private house<br>Purchase price: 50.35 m ISK<br>Current property value: 181.15 m ISK<br>Last Purchase Date: 2019-01-14<br>Percentage value change: 259.78 %
                  </div>`,
@@ -373,13 +367,13 @@
             );
         
     
-            var circle_72bd3d60ad79f2ba11d6bdad399d4638 = L.circle(
+            var circle_5864d22d57c2a6fbe7891cae13f42d34 = L.circle(
                 [64.09948752, -21.86314847],
                 {"bubblingMouseEvents": true, "color": "#7a8fd8ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7a8fd8ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 128.66279069767444, "stroke": true, "weight": 3}
-            ).addTo(feature_group_84f748d1acdcea5e72b15d21a68e5ae9);
+            ).addTo(feature_group_8fe12d300db1aee473f8ababee1f6423);
         
     
-            circle_72bd3d60ad79f2ba11d6bdad399d4638.bindTooltip(
+            circle_5864d22d57c2a6fbe7891cae13f42d34.bindTooltip(
                 `<div>
                      Address: Geislalind 6<br>Type: Private house<br>Purchase price: 43.0 m ISK<br>Current property value: 153.65 m ISK<br>Last Purchase Date: 2016-04-12<br>Percentage value change: 257.33 %
                  </div>`,
@@ -387,13 +381,13 @@
             );
         
     
-            var circle_b664e64e346b8e65c93fa41879491ee3 = L.circle(
+            var circle_5a83f8d00fce857615dc03c7c844461f = L.circle(
                 [64.1525633, -21.78634243],
                 {"bubblingMouseEvents": true, "color": "#6b80d3ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6b80d3ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 124.40789473684212, "stroke": true, "weight": 3}
-            ).addTo(feature_group_84f748d1acdcea5e72b15d21a68e5ae9);
+            ).addTo(feature_group_8fe12d300db1aee473f8ababee1f6423);
         
     
-            circle_b664e64e346b8e65c93fa41879491ee3.bindTooltip(
+            circle_5a83f8d00fce857615dc03c7c844461f.bindTooltip(
                 `<div>
                      Address: Vættaborgir 72<br>Type: Private house<br>Purchase price: 38.0 m ISK<br>Current property value: 132.55 m ISK<br>Last Purchase Date: 2019-07-17<br>Percentage value change: 248.82 %
                  </div>`,
@@ -401,13 +395,13 @@
             );
         
     
-            var circle_160db6386a05ecc8d033c138e42663e7 = L.circle(
+            var circle_d393f28845b689dff150298cc6c588e6 = L.circle(
                 [64.0916426, -21.92483288],
                 {"bubblingMouseEvents": true, "color": "#4a5dc6ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4a5dc6ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 114.4927536231884, "stroke": true, "weight": 3}
-            ).addTo(feature_group_84f748d1acdcea5e72b15d21a68e5ae9);
+            ).addTo(feature_group_8fe12d300db1aee473f8ababee1f6423);
         
     
-            circle_160db6386a05ecc8d033c138e42663e7.bindTooltip(
+            circle_d393f28845b689dff150298cc6c588e6.bindTooltip(
                 `<div>
                      Address: Goðatún 25<br>Type: Private house<br>Purchase price: 34.5 m ISK<br>Current property value: 113.5 m ISK<br>Last Purchase Date: 2016-09-26<br>Percentage value change: 228.99 %
                  </div>`,
@@ -415,13 +409,13 @@
             );
         
     
-            var circle_9afc6e77a5f444a2a4ed499f75374d31 = L.circle(
+            var circle_c7f2c34e7cf3a82961b3fa85543eea74 = L.circle(
                 [64.10348045, -21.92824225],
                 {"bubblingMouseEvents": true, "color": "#4052c3ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4052c3ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 111.68181818181817, "stroke": true, "weight": 3}
-            ).addTo(feature_group_84f748d1acdcea5e72b15d21a68e5ae9);
+            ).addTo(feature_group_8fe12d300db1aee473f8ababee1f6423);
         
     
-            circle_9afc6e77a5f444a2a4ed499f75374d31.bindTooltip(
+            circle_c7f2c34e7cf3a82961b3fa85543eea74.bindTooltip(
                 `<div>
                      Address: Haukanes 24<br>Type: Private house<br>Purchase price: 110.0 m ISK<br>Current property value: 355.7 m ISK<br>Last Purchase Date: 2020-03-05<br>Percentage value change: 223.36 %
                  </div>`,
@@ -429,13 +423,13 @@
             );
         
     
-            var circle_3c2469b214d9c5459d6ee04adf8f5f12 = L.circle(
+            var circle_8397399c6b0db9c2ccd5543c87d1ad87 = L.circle(
                 [64.1129916, -21.88215131],
                 {"bubblingMouseEvents": true, "color": "#4052c2ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4052c2ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 111.57074340527578, "stroke": true, "weight": 3}
-            ).addTo(feature_group_84f748d1acdcea5e72b15d21a68e5ae9);
+            ).addTo(feature_group_8fe12d300db1aee473f8ababee1f6423);
         
     
-            circle_3c2469b214d9c5459d6ee04adf8f5f12.bindTooltip(
+            circle_8397399c6b0db9c2ccd5543c87d1ad87.bindTooltip(
                 `<div>
                      Address: Hjallabrekka 24<br>Type: Private house<br>Purchase price: 41.7 m ISK<br>Current property value: 134.75 m ISK<br>Last Purchase Date: 2018-07-30<br>Percentage value change: 223.14 %
                  </div>`,
@@ -443,13 +437,13 @@
             );
         
     
-            var circle_4c000838fd2ed4239b92255beb3e2b4f = L.circle(
+            var circle_17b82567aeca7d7c28cf80be3ea9ad24 = L.circle(
                 [64.14835592, -21.94578993],
                 {"bubblingMouseEvents": true, "color": "#3c4ec1ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c4ec1ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 110.59523809523807, "stroke": true, "weight": 3}
-            ).addTo(feature_group_84f748d1acdcea5e72b15d21a68e5ae9);
+            ).addTo(feature_group_8fe12d300db1aee473f8ababee1f6423);
         
     
-            circle_4c000838fd2ed4239b92255beb3e2b4f.bindTooltip(
+            circle_17b82567aeca7d7c28cf80be3ea9ad24.bindTooltip(
                 `<div>
                      Address: Öldugata 7A<br>Type: Private house<br>Purchase price: 8.4 m ISK<br>Current property value: 26.98 m ISK<br>Last Purchase Date: 2017-03-30<br>Percentage value change: 221.19 %
                  </div>`,
@@ -457,13 +451,13 @@
             );
         
     
-            var circle_fd935a1e81e7b69fac4b92433bb32e87 = L.circle(
+            var circle_18657ce59eb4e5693a7cac4f7e442be1 = L.circle(
                 [64.17959869, -21.68844373],
                 {"bubblingMouseEvents": true, "color": "#3a4cc0ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3a4cc0ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 109.8888888888889, "stroke": true, "weight": 3}
-            ).addTo(feature_group_84f748d1acdcea5e72b15d21a68e5ae9);
+            ).addTo(feature_group_8fe12d300db1aee473f8ababee1f6423);
         
     
-            circle_fd935a1e81e7b69fac4b92433bb32e87.bindTooltip(
+            circle_18657ce59eb4e5693a7cac4f7e442be1.bindTooltip(
                 `<div>
                      Address: Laxatunga 21<br>Type: Private house<br>Purchase price: 45.0 m ISK<br>Current property value: 143.9 m ISK<br>Last Purchase Date: 2018-01-09<br>Percentage value change: 219.78 %
                  </div>`,
@@ -471,13 +465,13 @@
             );
         
     
-            var circle_7b19f0b814fb951c1a04a619d5d9b631 = L.circle(
+            var circle_94a46cbb9f9b6a6e1fabf5f9d0a636b1 = L.circle(
                 [64.11151617, -21.89522523],
                 {"bubblingMouseEvents": true, "color": "#3a4cc0ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3a4cc0ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 109.85714285714288, "stroke": true, "weight": 3}
-            ).addTo(feature_group_84f748d1acdcea5e72b15d21a68e5ae9);
+            ).addTo(feature_group_8fe12d300db1aee473f8ababee1f6423);
         
     
-            circle_7b19f0b814fb951c1a04a619d5d9b631.bindTooltip(
+            circle_94a46cbb9f9b6a6e1fabf5f9d0a636b1.bindTooltip(
                 `<div>
                      Address: Hávegur 9<br>Type: Private house<br>Purchase price: 35.0 m ISK<br>Current property value: 111.9 m ISK<br>Last Purchase Date: 2016-01-07<br>Percentage value change: 219.71 %
                  </div>`,
@@ -485,21 +479,18 @@
             );
         
     
-            feature_group_84f748d1acdcea5e72b15d21a68e5ae9.addTo(map_3b66af2dab2f807f3cb2c5fa86e03dfc);
-        
-    
-            var feature_group_38c34fadb677755f7593733237b003a9 = L.featureGroup(
+            var feature_group_7197811494227c9258f7fd964e9f4555 = L.featureGroup(
                 {}
-            );
+            ).addTo(map_3b74d7e05c034c2480dd5b65465458ff);
         
     
-            var circle_3804364f8c668b4b91b5da08c64fbd78 = L.circle(
+            var circle_8af2a06bc8004a4e29390b436e9a7779 = L.circle(
                 [64.12051995, -21.88061553],
                 {"bubblingMouseEvents": true, "color": "#677cd1ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#677cd1ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 123.16666666666667, "stroke": true, "weight": 3}
-            ).addTo(feature_group_38c34fadb677755f7593733237b003a9);
+            ).addTo(feature_group_7197811494227c9258f7fd964e9f4555);
         
     
-            circle_3804364f8c668b4b91b5da08c64fbd78.bindTooltip(
+            circle_8af2a06bc8004a4e29390b436e9a7779.bindTooltip(
                 `<div>
                      Address: Brúnaland 5<br>Type: Plex/semi house<br>Purchase price: 45.0 m ISK<br>Current property value: 155.85 m ISK<br>Last Purchase Date: 2018-05-14<br>Percentage value change: 246.33 %
                  </div>`,
@@ -507,13 +498,13 @@
             );
         
     
-            var circle_d3f1fb1d1c49a53bcb8030171b10ffef = L.circle(
+            var circle_ca2766b0c9de88296974e22cef6d8a00 = L.circle(
                 [64.14914764, -21.96587642],
                 {"bubblingMouseEvents": true, "color": "#495cc6ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#495cc6ff", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 114.33080808080808, "stroke": true, "weight": 3}
-            ).addTo(feature_group_38c34fadb677755f7593733237b003a9);
+            ).addTo(feature_group_7197811494227c9258f7fd964e9f4555);
         
     
-            circle_d3f1fb1d1c49a53bcb8030171b10ffef.bindTooltip(
+            circle_ca2766b0c9de88296974e22cef6d8a00.bindTooltip(
                 `<div>
                      Address: Álagrandi 20<br>Type: Plex/semi house<br>Purchase price: 39.6 m ISK<br>Current property value: 130.15 m ISK<br>Last Purchase Date: 2020-01-21<br>Percentage value change: 228.66 %
                  </div>`,
@@ -521,45 +512,42 @@
             );
         
     
-            feature_group_38c34fadb677755f7593733237b003a9.addTo(map_3b66af2dab2f807f3cb2c5fa86e03dfc);
-        
-    
-    var color_map_94a5940d86e77db7db92138d9313468d = {};
+    var color_map_f63c89d9bf91060ed166f1bc0dd0f7a3 = {};
 
     
-    color_map_94a5940d86e77db7db92138d9313468d.color = d3.scale.threshold()
+    color_map_f63c89d9bf91060ed166f1bc0dd0f7a3.color = d3.scale.threshold()
               .domain([219.71428571428575, 220.16816490123108, 220.62204408817638, 221.0759232751217, 221.52980246206704, 221.98368164901234, 222.43756083595767, 222.891440022903, 223.3453192098483, 223.79919839679363, 224.25307758373896, 224.70695677068426, 225.1608359576296, 225.6147151445749, 226.06859433152022, 226.52247351846555, 226.97635270541085, 227.43023189235618, 227.8841110793015, 228.3379902662468, 228.79186945319213, 229.24574864013746, 229.69962782708276, 230.1535070140281, 230.60738620097342, 231.06126538791872, 231.51514457486405, 231.96902376180938, 232.42290294875468, 232.8767821357, 233.3306613226453, 233.78454050959064, 234.23841969653597, 234.69229888348127, 235.1461780704266, 235.60005725737193, 236.05393644431723, 236.50781563126256, 236.9616948182079, 237.4155740051532, 237.86945319209852, 238.32333237904385, 238.77721156598915, 239.23109075293448, 239.6849699398798, 240.1388491268251, 240.59272831377044, 241.04660750071577, 241.50048668766107, 241.9543658746064, 242.40824506155172, 242.86212424849703, 243.31600343544235, 243.76988262238768, 244.22376180933298, 244.6776409962783, 245.13152018322364, 245.58539937016894, 246.03927855711427, 246.4931577440596, 246.9470369310049, 247.40091611795023, 247.85479530489553, 248.30867449184086, 248.7625536787862, 249.2164328657315, 249.67031205267682, 250.12419123962215, 250.57807042656745, 251.03194961351278, 251.48582880045808, 251.9397079874034, 252.39358717434874, 252.84746636129404, 253.30134554823937, 253.7552247351847, 254.20910392213, 254.66298310907533, 255.11686229602066, 255.57074148296596, 256.0246206699113, 256.4784998568566, 256.9323790438019, 257.3862582307472, 257.8401374176926, 258.2940166046379, 258.74789579158323, 259.20177497852853, 259.65565416547383, 260.10953335241913, 260.5634125393645, 261.0172917263098, 261.47117091325515, 261.92505010020045, 262.37892928714575, 262.83280847409105, 263.2866876610364, 263.7405668479817, 264.19444603492707, 264.64832522187237, 265.10220440881767, 265.55608359576297, 266.0099627827083, 266.46384196965363, 266.91772115659893, 267.3716003435443, 267.8254795304896, 268.2793587174349, 268.73323790438025, 269.18711709132555, 269.64099627827085, 270.0948754652162, 270.5487546521615, 271.0026338391068, 271.45651302605216, 271.91039221299746, 272.36427139994277, 272.8181505868881, 273.2720297738334, 273.7259089607787, 274.179788147724, 274.6336673346694, 275.0875465216147, 275.54142570856004, 275.99530489550534, 276.44918408245064, 276.90306326939594, 277.3569424563413, 277.8108216432866, 278.26470083023196, 278.71858001717726, 279.17245920412256, 279.62633839106786, 280.0802175780132, 280.5340967649585, 280.9879759519039, 281.4418551388492, 281.8957343257945, 282.3496135127398, 282.80349269968514, 283.25737188663044, 283.71125107357574, 284.1651302605211, 284.6190094474664, 285.0728886344117, 285.52676782135705, 285.98064700830236, 286.4345261952477, 286.888405382193, 287.3422845691383, 287.7961637560836, 288.250042943029, 288.7039221299743, 289.1578013169196, 289.61168050386493, 290.06555969081023, 290.51943887775553, 290.9733180647009, 291.4271972516462, 291.8810764385915, 292.33495562553685, 292.78883481248215, 293.24271399942745, 293.6965931863728, 294.1504723733181, 294.6043515602634, 295.05823074720877, 295.51210993415407, 295.96598912109937, 296.41986830804467, 296.87374749499, 297.3276266819353, 297.7815058688807, 298.235385055826, 298.6892642427713, 299.1431434297166, 299.59702261666195, 300.05090180360725, 300.5047809905526, 300.9586601774979, 301.4125393644432, 301.8664185513885, 302.32029773833386, 302.77417692527916, 303.2280561122245, 303.6819352991698, 304.1358144861151, 304.5896936730604, 305.0435728600058, 305.4974520469511, 305.95133123389644, 306.40521042084174, 306.85908960778704, 307.31296879473234, 307.7668479816777, 308.220727168623, 308.67460635556836, 309.12848554251366, 309.58236472945896, 310.03624391640426, 310.4901231033496, 310.9440022902949, 311.3978814772402, 311.8517606641856, 312.3056398511309, 312.7595190380762, 313.2133982250215, 313.66727741196684, 314.12115659891214, 314.5750357858575, 315.0289149728028, 315.4827941597481, 315.9366733466934, 316.39055253363875, 316.84443172058405, 317.2983109075294, 317.7521900944747, 318.20606928142, 318.6599484683653, 319.1138276553107, 319.567706842256, 320.02158602920133, 320.47546521614663, 320.92934440309193, 321.38322359003723, 321.8371027769826, 322.2909819639279, 322.74486115087325, 323.19874033781855, 323.65261952476385, 324.10649871170915, 324.5603778986545, 325.0142570855998, 325.46813627254517, 325.92201545949047, 326.37589464643577, 326.82977383338107, 327.2836530203264, 327.7375322072717, 328.191411394217, 328.6452905811624, 329.0991697681077, 329.553048955053, 330.0069281419983, 330.46080732894364, 330.91468651588895, 331.3685657028343, 331.8224448897796, 332.2763240767249, 332.7302032636702, 333.18408245061556, 333.63796163756086, 334.0918408245062, 334.5457200114515, 334.9995991983968, 335.4534783853421, 335.9073575722875, 336.3612367592328, 336.81511594617814, 337.26899513312344, 337.72287432006874, 338.17675350701404, 338.6306326939594, 339.0845118809047, 339.53839106785006, 339.99227025479536, 340.44614944174066, 340.90002862868596, 341.3539078156313, 341.8077870025766, 342.261666189522, 342.7155453764673, 343.1694245634126, 343.6233037503579, 344.07718293730323, 344.53106212424854, 344.98494131119384, 345.4388204981392, 345.8926996850845, 346.3465788720298, 346.8004580589751, 347.25433724592045, 347.70821643286575, 348.1620956198111, 348.6159748067564, 349.0698539937017, 349.523733180647, 349.97761236759237, 350.43149155453773, 350.88537074148303, 351.33924992842833, 351.79312911537363, 352.24700830231893, 352.70088748926423, 353.15476667620965, 353.60864586315495, 354.06252505010025, 354.51640423704555, 354.97028342399085, 355.42416261093615, 355.8780417978815, 356.33192098482687, 356.78580017177217, 357.23967935871747, 357.69355854566277, 358.14743773260807, 358.6013169195534, 359.0551961064988, 359.5090752934441, 359.9629544803894, 360.4168336673347, 360.87071285428, 361.32459204122534, 361.7784712281707, 362.232350415116, 362.6862296020613, 363.1401087890066, 363.5939879759519, 364.04786716289726, 364.5017463498426, 364.9556255367879, 365.4095047237332, 365.8633839106785, 366.3172630976238, 366.7711422845692, 367.22502147151454, 367.67890065845984, 368.13277984540514, 368.58665903235044, 369.04053821929574, 369.49441740624104, 369.94829659318646, 370.40217578013176, 370.85605496707706, 371.30993415402236, 371.76381334096766, 372.21769252791296, 372.6715717148584, 373.1254509018037, 373.579330088749, 374.0332092756943, 374.4870884626396, 374.9409676495849, 375.3948468365303, 375.8487260234756, 376.3026052104209, 376.7564843973662, 377.2103635843115, 377.6642427712568, 378.1181219582022, 378.5720011451475, 379.0258803320928, 379.4797595190381, 379.9336387059834, 380.3875178929287, 380.8413970798741, 381.2952762668194, 381.74915545376473, 382.20303464071003, 382.65691382765533, 383.11079301460063, 383.56467220154605, 384.01855138849135, 384.47243057543665, 384.92630976238195, 385.38018894932725, 385.83406813627255, 386.2879473232179, 386.74182651016326, 387.19570569710856, 387.64958488405387, 388.10346407099917, 388.55734325794447, 389.0112224448898, 389.4651016318352, 389.9189808187805, 390.3728600057258, 390.8267391926711, 391.2806183796164, 391.73449756656174, 392.1883767535071, 392.6422559404524, 393.0961351273977, 393.550014314343, 394.0038935012883, 394.45777268823366, 394.911651875179, 395.3655310621243, 395.8194102490696, 396.2732894360149, 396.7271686229602, 397.1810478099056, 397.63492699685094, 398.08880618379624, 398.54268537074154, 398.99656455768684, 399.45044374463214, 399.90432293157744, 400.35820211852285, 400.81208130546815, 401.26596049241346, 401.71983967935876, 402.17371886630406, 402.62759805324936, 403.0814772401947, 403.5353564271401, 403.9892356140854, 404.4431148010307, 404.896993987976, 405.3508731749213, 405.80475236186663, 406.258631548812, 406.7125107357573, 407.1663899227026, 407.6202691096479, 408.0741482965932, 408.52802748353855, 408.9819066704839, 409.4357858574292, 409.8896650443745, 410.3435442313198, 410.7974234182651, 411.25130260521047, 411.7051817921558, 412.1590609791011, 412.6129401660464, 413.06681935299173, 413.52069853993703, 413.9745777268824, 414.42845691382774, 414.88233610077305, 415.33621528771835, 415.79009447466365, 416.24397366160895, 416.6978528485543, 417.15173203549966, 417.60561122244496, 418.05949040939026, 418.51336959633556, 418.96724878328087, 419.4211279702262, 419.8750071571715, 420.3288863441169, 420.7827655310622, 421.2366447180075, 421.6905239049528, 422.14440309189814, 422.59828227884344, 423.0521614657888, 423.5060406527341, 423.9599198396794, 424.4137990266247, 424.86767821357006, 425.32155740051536, 425.7754365874607, 426.229315774406, 426.6831949613513, 427.1370741482966, 427.590953335242, 428.0448325221873, 428.49871170913264, 428.95259089607794, 429.40647008302324, 429.86034926996854, 430.3142284569139, 430.7681076438592, 431.22198683080455, 431.67586601774985, 432.12974520469515, 432.58362439164046, 433.0375035785858, 433.4913827655311, 433.94526195247647, 434.3991411394218, 434.8530203263671, 435.3068995133124, 435.7607787002577, 436.21465788720303, 436.66853707414833, 437.1224162610937, 437.576295448039, 438.0301746349843, 438.4840538219296, 438.93793300887495, 439.39181219582025, 439.8456913827656, 440.2995705697109, 440.7534497566562, 441.2073289436015, 441.66120813054687, 442.11508731749217, 442.5689665044375, 443.0228456913828, 443.4767248783281, 443.9306040652734, 444.3844832522188, 444.8383624391641, 445.29224162610944, 445.74612081305474, 446.20000000000005])
               .range(['#3a4cc0ff', '#3a4dc1ff', '#3b4dc1ff', '#3c4ec1ff', '#3d4fc1ff', '#3e50c2ff', '#3e51c2ff', '#3f52c2ff', '#4052c3ff', '#4153c3ff', '#4154c3ff', '#4255c3ff', '#4356c4ff', '#4456c4ff', '#4557c4ff', '#4558c5ff', '#4659c5ff', '#475ac5ff', '#485bc5ff', '#485bc6ff', '#495cc6ff', '#4a5dc6ff', '#4b5ec7ff', '#4b5fc7ff', '#4c5fc7ff', '#4d60c7ff', '#4e61c8ff', '#4f62c8ff', '#4f63c8ff', '#5064c9ff', '#5164c9ff', '#5265c9ff', '#5266caff', '#5367caff', '#5468caff', '#5569caff', '#5669cbff', '#566acbff', '#576bcbff', '#586cccff', '#596dccff', '#596dccff', '#5a6eccff', '#5b6fcdff', '#5c70cdff', '#5c71cdff', '#5d72ceff', '#5e72ceff', '#5f73ceff', '#6074ceff', '#6075cfff', '#6176cfff', '#6276cfff', '#6377d0ff', '#6378d0ff', '#6479d0ff', '#657ad0ff', '#667bd1ff', '#677bd1ff', '#677cd1ff', '#687dd2ff', '#697ed2ff', '#6a7fd2ff', '#6a7fd3ff', '#6b80d3ff', '#6c81d3ff', '#6d82d3ff', '#6e83d4ff', '#6e83d4ff', '#6f84d4ff', '#7085d5ff', '#7186d5ff', '#7287d5ff', '#7287d5ff', '#7388d6ff', '#7489d6ff', '#758ad6ff', '#768bd7ff', '#768bd7ff', '#778cd7ff', '#788dd7ff', '#798ed8ff', '#7a8ed8ff', '#7b8fd8ff', '#7b90d9ff', '#7c91d9ff', '#7d92d9ff', '#7e92d9ff', '#7f93daff', '#7f94daff', '#8095daff', '#8196dbff', '#8296dbff', '#8397dbff', '#8398dbff', '#8499dcff', '#859adcff', '#869adcff', '#879bddff', '#879cddff', '#889dddff', '#899ddeff', '#8a9edeff', '#8b9fdeff', '#8ba0deff', '#8ca1dfff', '#8da1dfff', '#8ea2dfff', '#8fa3e0ff', '#8fa4e0ff', '#90a5e0ff', '#91a5e0ff', '#92a6e1ff', '#93a7e1ff', '#93a8e1ff', '#94a9e2ff', '#95a9e2ff', '#96aae2ff', '#97abe2ff', '#97ace3ff', '#98ace3ff', '#99ade3ff', '#9aaee4ff', '#9bafe4ff', '#9cb0e4ff', '#9cb0e4ff', '#9db1e5ff', '#9eb2e5ff', '#9eb2e5ff', '#9fb3e6ff', '#a0b4e6ff', '#a1b4e6ff', '#a1b5e6ff', '#a2b6e7ff', '#a3b6e7ff', '#a4b7e7ff', '#a4b8e8ff', '#a5b8e8ff', '#a6b9e8ff', '#a6bae9ff', '#a7bae9ff', '#a8bbe9ff', '#a9bce9ff', '#a9bdeaff', '#aabdeaff', '#abbeeaff', '#acbfebff', '#acbfebff', '#adc0ebff', '#aec1ebff', '#aec1ecff', '#afc2ecff', '#b0c3ecff', '#b1c3edff', '#b1c4edff', '#b2c5edff', '#b3c5edff', '#b3c6eeff', '#b4c7eeff', '#b5c7eeff', '#b6c8efff', '#b6c9efff', '#b7c9efff', '#b8caefff', '#b9cbf0ff', '#b9cbf0ff', '#baccf0ff', '#bbcdf1ff', '#bbcdf1ff', '#bccef1ff', '#bdcff2ff', '#becff2ff', '#bed0f2ff', '#bfd1f2ff', '#c0d1f3ff', '#c1d2f3ff', '#c1d3f3ff', '#c2d4f4ff', '#c3d4f4ff', '#c3d5f4ff', '#c4d6f4ff', '#c5d6f5ff', '#c6d7f5ff', '#c6d8f5ff', '#c7d8f6ff', '#c8d9f6ff', '#c8daf6ff', '#c9daf6ff', '#cadaf5ff', '#cbdaf3ff', '#ccdaf2ff', '#cddaf0ff', '#cddaeeff', '#cedaecff', '#cfdaebff', '#d0dae9ff', '#d1dae7ff', '#d2dae5ff', '#d3dae4ff', '#d3dae2ff', '#d4dae0ff', '#d5dadfff', '#d6daddff', '#d7dadbff', '#d8dad9ff', '#d9dad8ff', '#d9dad6ff', '#dadad4ff', '#dbdad3ff', '#dcdad1ff', '#dddacfff', '#dedacdff', '#dfdaccff', '#dfdacaff', '#e0dac8ff', '#e1dac6ff', '#e2dac5ff', '#e3dac3ff', '#e4dac1ff', '#e4dac0ff', '#e5dabeff', '#e6dabcff', '#e7dabaff', '#e8dab9ff', '#e9dab7ff', '#eadab5ff', '#eadab4ff', '#ebdab2ff', '#ecdab0ff', '#eddaaeff', '#eedaadff', '#efdaabff', '#f0daa9ff', '#f0daa7ff', '#f1daa6ff', '#f2daa4ff', '#f3daa2ff', '#f4daa1ff', '#f5da9fff', '#f6da9dff', '#f6da9bff', '#f7da9aff', '#f8da98ff', '#f9da96ff', '#fada95ff', '#fbda93ff', '#fcda91ff', '#fcda8fff', '#fdda8eff', '#feda8cff', '#feda8bff', '#fed98aff', '#fed98aff', '#fed889ff', '#fed888ff', '#fed788ff', '#fed687ff', '#fed687ff', '#fed586ff', '#fed485ff', '#fed485ff', '#fed384ff', '#fed384ff', '#fed283ff', '#fed182ff', '#fed182ff', '#fed081ff', '#fecf81ff', '#fecf80ff', '#fece7fff', '#fecd7fff', '#fecd7eff', '#fecc7eff', '#fecc7dff', '#fecb7cff', '#feca7cff', '#feca7bff', '#fec97bff', '#fec87aff', '#fec879ff', '#fec779ff', '#fec778ff', '#fec678ff', '#fec577ff', '#fec576ff', '#fec476ff', '#fec375ff', '#fec375ff', '#fec274ff', '#fec274ff', '#fec173ff', '#fec072ff', '#fec072ff', '#febf71ff', '#febe71ff', '#febe70ff', '#febd6fff', '#febd6fff', '#febc6eff', '#febb6eff', '#febb6dff', '#feba6cff', '#feb96cff', '#feb96bff', '#feb86bff', '#feb86aff', '#feb769ff', '#feb669ff', '#feb668ff', '#feb568ff', '#feb467ff', '#feb466ff', '#fdb366ff', '#fdb365ff', '#fdb265ff', '#fdb164ff', '#fdb164ff', '#fdb064ff', '#fdaf63ff', '#fdaf63ff', '#fdae62ff', '#fdae62ff', '#fdad61ff', '#fdac61ff', '#fdac60ff', '#fdab60ff', '#fdab5fff', '#fdaa5fff', '#fda95eff', '#fda95eff', '#fda85dff', '#fda85dff', '#fda75dff', '#fda65cff', '#fda65cff', '#fda55bff', '#fda45bff', '#fda45aff', '#fda35aff', '#fda359ff', '#fda259ff', '#fda158ff', '#fda158ff', '#fda057ff', '#fda057ff', '#fd9f56ff', '#fd9e56ff', '#fd9e56ff', '#fd9d55ff', '#fd9c55ff', '#fd9c54ff', '#fd9b54ff', '#fd9b53ff', '#fd9a53ff', '#fd9952ff', '#fd9952ff', '#fd9851ff', '#fd9851ff', '#fd9750ff', '#fd9650ff', '#fd964fff', '#fd954fff', '#fd954fff', '#fd944eff', '#fd934eff', '#fd934dff', '#fd924dff', '#fd914cff', '#fd914cff', '#fd904bff', '#fd904bff', '#fd8f4aff', '#fd8e4aff', '#fd8e49ff', '#fc8d49ff', '#fc8c48ff', '#fc8b48ff', '#fc8947ff', '#fc8846ff', '#fc8746ff', '#fb8545ff', '#fb8444ff', '#fb8344ff', '#fb8243ff', '#fb8042ff', '#fa7f42ff', '#fa7e41ff', '#fa7c40ff', '#fa7b40ff', '#fa7a3fff', '#f9783eff', '#f9773eff', '#f9763dff', '#f9743cff', '#f9733cff', '#f8723bff', '#f8703aff', '#f86f3aff', '#f86e39ff', '#f86c38ff', '#f86b38ff', '#f76a37ff', '#f76836ff', '#f76736ff', '#f76635ff', '#f76434ff', '#f66334ff', '#f66233ff', '#f66133ff', '#f65f32ff', '#f65e31ff', '#f55d31ff', '#f55b30ff', '#f55a2fff', '#f5592fff', '#f5572eff', '#f4562dff', '#f4552dff', '#f4532cff', '#f4522bff', '#f4512bff', '#f34f2aff', '#f34e29ff', '#f34d29ff', '#f34b28ff', '#f34a27ff', '#f24927ff', '#f24726ff', '#f24625ff', '#f24525ff', '#f24324ff', '#f24223ff', '#f14123ff', '#f14022ff', '#f13e21ff', '#f13d21ff', '#f13c20ff', '#f03b20ff', '#f03a1fff', '#f03a1fff', '#ef391fff', '#ef391eff', '#ee381eff', '#ee381eff', '#ee381dff', '#ed371dff', '#ed371dff', '#ed361dff', '#ec361cff', '#ec361cff', '#eb351cff', '#eb351bff', '#eb341bff', '#ea341bff', '#ea331bff', '#ea331aff', '#e9331aff', '#e9321aff', '#e93219ff', '#e83119ff', '#e83119ff', '#e73119ff', '#e73018ff', '#e73018ff', '#e62f18ff', '#e62f17ff', '#e62e17ff', '#e52e17ff', '#e52e17ff', '#e42d16ff', '#e42d16ff', '#e42c16ff', '#e32c15ff', '#e32c15ff', '#e32b15ff', '#e22b15ff', '#e22a14ff', '#e12a14ff', '#e12914ff', '#e12913ff', '#e02913ff', '#e02813ff', '#e02812ff', '#df2712ff', '#df2712ff', '#df2612ff', '#de2611ff', '#de2611ff', '#dd2511ff', '#dd2510ff', '#dd2410ff', '#dc2410ff', '#dc2410ff', '#dc230fff', '#db230fff', '#db220fff', '#da220eff', '#da210eff', '#da210eff', '#d9210eff']);
     
 
-    color_map_94a5940d86e77db7db92138d9313468d.x = d3.scale.linear()
+    color_map_f63c89d9bf91060ed166f1bc0dd0f7a3.x = d3.scale.linear()
               .domain([219.71428571428575, 446.20000000000005])
               .range([0, 450 - 50]);
 
-    color_map_94a5940d86e77db7db92138d9313468d.legend = L.control({position: 'topright'});
-    color_map_94a5940d86e77db7db92138d9313468d.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
-    color_map_94a5940d86e77db7db92138d9313468d.legend.addTo(map_3b66af2dab2f807f3cb2c5fa86e03dfc);
+    color_map_f63c89d9bf91060ed166f1bc0dd0f7a3.legend = L.control({position: 'topright'});
+    color_map_f63c89d9bf91060ed166f1bc0dd0f7a3.legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
+    color_map_f63c89d9bf91060ed166f1bc0dd0f7a3.legend.addTo(map_3b74d7e05c034c2480dd5b65465458ff);
 
-    color_map_94a5940d86e77db7db92138d9313468d.xAxis = d3.svg.axis()
-        .scale(color_map_94a5940d86e77db7db92138d9313468d.x)
+    color_map_f63c89d9bf91060ed166f1bc0dd0f7a3.xAxis = d3.svg.axis()
+        .scale(color_map_f63c89d9bf91060ed166f1bc0dd0f7a3.x)
         .orient("top")
         .tickSize(1)
         .tickValues([219.71428571428575, 248.02500000000003, 276.33571428571435, 304.6464285714286, 332.9571428571429, 361.2678571428572, 389.5785714285715, 417.88928571428573, 446.20000000000005]);
 
-    color_map_94a5940d86e77db7db92138d9313468d.svg = d3.select(".legend.leaflet-control").append("svg")
+    color_map_f63c89d9bf91060ed166f1bc0dd0f7a3.svg = d3.select(".legend.leaflet-control").append("svg")
         .attr("id", 'legend')
         .attr("width", 450)
         .attr("height", 40);
 
-    color_map_94a5940d86e77db7db92138d9313468d.g = color_map_94a5940d86e77db7db92138d9313468d.svg.append("g")
+    color_map_f63c89d9bf91060ed166f1bc0dd0f7a3.g = color_map_f63c89d9bf91060ed166f1bc0dd0f7a3.svg.append("g")
         .attr("class", "key")
         .attr("transform", "translate(25,16)");
 
-    color_map_94a5940d86e77db7db92138d9313468d.g.selectAll("rect")
-        .data(color_map_94a5940d86e77db7db92138d9313468d.color.range().map(function(d, i) {
+    color_map_f63c89d9bf91060ed166f1bc0dd0f7a3.g.selectAll("rect")
+        .data(color_map_f63c89d9bf91060ed166f1bc0dd0f7a3.color.range().map(function(d, i) {
           return {
-            x0: i ? color_map_94a5940d86e77db7db92138d9313468d.x(color_map_94a5940d86e77db7db92138d9313468d.color.domain()[i - 1]) : color_map_94a5940d86e77db7db92138d9313468d.x.range()[0],
-            x1: i < color_map_94a5940d86e77db7db92138d9313468d.color.domain().length ? color_map_94a5940d86e77db7db92138d9313468d.x(color_map_94a5940d86e77db7db92138d9313468d.color.domain()[i]) : color_map_94a5940d86e77db7db92138d9313468d.x.range()[1],
+            x0: i ? color_map_f63c89d9bf91060ed166f1bc0dd0f7a3.x(color_map_f63c89d9bf91060ed166f1bc0dd0f7a3.color.domain()[i - 1]) : color_map_f63c89d9bf91060ed166f1bc0dd0f7a3.x.range()[0],
+            x1: i < color_map_f63c89d9bf91060ed166f1bc0dd0f7a3.color.domain().length ? color_map_f63c89d9bf91060ed166f1bc0dd0f7a3.x(color_map_f63c89d9bf91060ed166f1bc0dd0f7a3.color.domain()[i]) : color_map_f63c89d9bf91060ed166f1bc0dd0f7a3.x.range()[1],
             z: d
           };
         }))
@@ -569,27 +557,26 @@
         .attr("width", function(d) { return d.x1 - d.x0; })
         .style("fill", function(d) { return d.z; });
 
-    color_map_94a5940d86e77db7db92138d9313468d.g.call(color_map_94a5940d86e77db7db92138d9313468d.xAxis).append("text")
+    color_map_f63c89d9bf91060ed166f1bc0dd0f7a3.g.call(color_map_f63c89d9bf91060ed166f1bc0dd0f7a3.xAxis).append("text")
         .attr("class", "caption")
         .attr("y", 21)
         .text("Percentage Value Change");
     
-            var layer_control_e8fca1429c92eb4602072d5fba76acd5_layers = {
+            var layer_control_2f87a10e661ddc29317064c9eb447b57 = {
                 base_layers : {
-                    "cartodbpositron" : tile_layer_bf599d473cd61539922a9bafe9d44bab,
+                    "cartodbpositron" : tile_layer_4e4a6d25019454997048e7943adf62df,
                 },
                 overlays :  {
-                    "Apartment" : feature_group_6bf4e6c519f2a03498b5098cb67ab325,
-                    "Private house" : feature_group_84f748d1acdcea5e72b15d21a68e5ae9,
-                    "Plex/semi house" : feature_group_38c34fadb677755f7593733237b003a9,
+                    "Apartment" : feature_group_e0a546d66d61d5e34b187b011fa1307e,
+                    "Private house" : feature_group_8fe12d300db1aee473f8ababee1f6423,
+                    "Plex/semi house" : feature_group_7197811494227c9258f7fd964e9f4555,
                 },
             };
-            let layer_control_e8fca1429c92eb4602072d5fba76acd5 = L.control.layers(
-                layer_control_e8fca1429c92eb4602072d5fba76acd5_layers.base_layers,
-                layer_control_e8fca1429c92eb4602072d5fba76acd5_layers.overlays,
+            L.control.layers(
+                layer_control_2f87a10e661ddc29317064c9eb447b57.base_layers,
+                layer_control_2f87a10e661ddc29317064c9eb447b57.overlays,
                 {"autoZIndex": true, "collapsed": false, "position": "topright"}
-            ).addTo(map_3b66af2dab2f807f3cb2c5fa86e03dfc);
-
+            ).addTo(map_3b74d7e05c034c2480dd5b65465458ff);
         
 </script>
 </html>

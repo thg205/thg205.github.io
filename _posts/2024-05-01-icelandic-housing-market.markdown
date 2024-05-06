@@ -150,13 +150,3 @@ Or for the other ones that don't like all the newest and latest, than here is an
 <iframe src="{{page.oldest_houses}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
-
-
-Hmm...above plot is not that nice to look at, but there seem to be some absurdily expensive properties, which is maybe not in a sense an outlier, but never the less, something out of the ordinary. If we only look at purchase prices less than 500 mISK we should get a better feeling for the distribution of the purchase prices.
-
-Well, yeah, of course there are always some properties that go way above the market trend...but hey, here we have fairly nice gaussian like bell, albeit a little skewed and has a long tail, indicating the more expensive properties.
-
-Also, it makes sense to look at a scatter plot, where we plot square meters agains purchase price (adjusted for inflation). Here we would guess that with increasing size you would get an increase in purchase price, but it may be quite location based, so not a linear relationship for the whole dataset.
-
-Yes, some upward trends but it's really clustered and not much insight to gain from this, other than it can be quite a big difference when it comes to purchase price for the about the same sized properties. Only the biggest ones, past 350 square meters that look like to follow a more upwards trend for the whole dataset.
-
