@@ -91,12 +91,14 @@ Take a look at the most expensive postal codes in this fun and interactive map:
 * But perhaps surprising postal code 102 is the most expensive, average price of 67.34 mISK or approximately 3.37 mDKK
 * Also, even though 270 (Mosfellsbær) is the furthest away from the city center of Reykjavík, then it's still sitting at the middle of the bunch 
 
-Next plot is for the business savvy - always wanting to make the much money - ones...historical "best buys" where we have calculated the percentage change since the property was bought, comparing purchase price to current property value - the value that indicates what you could most likely get for your apartment when putting it up for sale.
+Next plot is for the business savvy - always wanting to make the big bucks - **Presenting:** Historical "best buys" where we have calculated the percentage change since the property was bought, comparing purchase price to current property value - the value that indicates what you could most likely get for your apartment when putting it up for sale. Please, try out our filter, so you can get a feeling for the different sizes based on property types.
 
 Flott mynd 4:
 <iframe src="{{page.hist_best_buys}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
+
+And finally, who doesn't want to live in a big mansion, with hundreds of square meters. We got the answer for you. But what about those that are less materalistic? Don't worry, we also got you covered...also pointing out the smallest properties sold. Please, try out our filter, so you can get a feeling for the different sizes based on property types.
 
 Flott mynd 5:
 <iframe src="{{page.property_size_groups}}" width="100%" height="400px" frameborder="0">
