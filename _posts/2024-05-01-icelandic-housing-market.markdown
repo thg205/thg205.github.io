@@ -106,7 +106,7 @@ Flott mynd 5:
 </iframe>
 
 ### For the odd ones
-If you would not like to live in the hustle and bustled of Reykjavík (for an Icelandic standard at lest) then we made a little analysis for the *less social ones* of the bunch. If you dream of isolation Iceland is the place to be, and Bbelow you can see the 3 most isolated houses that where sold between 2006-2024. 
+If you would not like to live in the hustle and bustled of Reykjavík (for an Icelandic standard at lest) then we made a little analysis for the *less social ones* of the bunch. If you dream of isolation, Iceland is the place to be and below you can see the 3 most isolated houses that where sold between 2006-2024. 
 
 Flott mynd 3:
 <iframe src="{{page.isolated_houses}}" width="100%" height="400px" frameborder="0">
