@@ -24,6 +24,7 @@ For some, it's a sleek, modern condo downtown, close to the buzz of city life. F
 
 The folks behind this website understand that perfectly. When they heard Iceland (yes, Iceland, not Denmark – plot twist!) made a bunch of housing data public, they were like "Let's dive in and see what makes Iceland's housing market tick!" (Especially since they're Icelandic...).
 
+
 ### Looking at historical trends
 **Diving in:** Let's start by examining historical purchase agreements from 2006 to 2023. This graph reveals a compelling trend. We see a peak in 2007, followed by a significant dip in 2009. This decline coincides with the 2008 financial crisis, a pivotal moment impacting the global economy, including Iceland's housing market.
 
@@ -40,6 +41,7 @@ Mynd af **Number of contracts per year with index rates:**
 ![Bar-chart]({{page.number-of-contracts-per-year-with-rates}}){:width="100%"}
 
 This exploration provides a glimpse into the dynamic relationship between mortgage interest rates and the Icelandic housing market. By examining trends, we gain valuable insights into the factors shaping this ever-evolving landscape.
+
 
 ### Details of properties available
 In Iceland there are about 60 municipalities, but many of them are small and not as interesting, so these are the 16 biggest, most of them close to **Reykjavík**, the capital city. Let's look at the different details per municipality, where we draw some insights about what you could be expecting when buying a property in one of the municipalities.
@@ -77,6 +79,7 @@ Now again looking at Iceland as a whole, we see what regions are the most expens
 
 **It's apparent:** The capital region is both the most expensive via purchase price and the square meter price. Also, true for other regions, the graphs do not change, meaning both pruchase price and square meter price are similar per region.
 
+
 ### Zooming in: The Capital Region of Iceland
 Most people live in Reykjavík or close by municipalities. Therefor, the most interesting thing to investigate would be via postal code, that is, the postal codes that are associated with "The Capital Region of Iceland". The prices are often heavily influenced by postal code.
 
@@ -93,29 +96,26 @@ Take a look at the most expensive postal codes in this fun and interactive map:
 
 Next plot is for the business savvy - always wanting to make the big bucks - **Presenting:** Historical "best buys" where we have calculated the percentage change since the property was bought, comparing purchase price to current property value - the value that indicates what you could most likely get for your apartment when putting it up for sale. Please, try out our filter, so you can get a feeling for the different sizes based on property types.
 
-Flott mynd 4:
 <iframe src="{{page.hist_best_buys}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
 
 And finally, who doesn't want to live in a big mansion, with hundreds of square meters. We got the answer for you. But what about those that are less materalistic? Don't worry, we also got you covered...also pointing out the smallest properties sold. Please, try out our filter, so you can get a feeling for the different sizes based on property types.
 
-Flott mynd 5:
 <iframe src="{{page.property_size_groups}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
 
+
 ### For the odd ones
 If you would not like to live in the hustle and bustled of Reykjavík (for an Icelandic standard at lest) then we made a little analysis for the *less social ones* of the bunch. If you dream of isolation, Iceland is the place to be and below you can see the 3 most isolated houses that where sold between 2006-2024. 
 
-Flott mynd 3:
 <iframe src="{{page.isolated_houses}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
 
 Or for the other ones that don't like all the newest and latest, than here is an interactive map showcasing the oldest houses sold between 2006-2021. If your not afraid of mold and leaky piping... move the courser over the map to get more details about each house!
 
-Oldest houses:
 <iframe src="{{page.oldest_houses}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
