@@ -27,9 +27,9 @@ The folks behind this website understand that perfectly. When they heard Iceland
 But before we start let's take a look at the datasets that where used.
 
 ### The datasets
-The main dataset that was used in this project is an open-source dataset containing property registration data for the Icelandic housing market, which was downloaded from this source: https://www.fasteignaskra.is/gogn/grunngogn-til-nidurhals. It contains information on historical purchase prices, property address, postal codes, square meters, numbner of rooms, type of hosuing, etc. To obtain geological data a supplementary dataset was needed containing latitude and longitude values for each property, and by merging these two datasets together the final dataset was created and ending being 75.4 MB in size.
+The main dataset that was used in this project is an open-source dataset containing property registration data for the Icelandic housing market, which was downloaded from this source: [property_register](https://www.fasteignaskra.is/gogn/grunngogn-til-nidurhals). It contains information on historical purchase prices, property address, postal codes, square meters, numbner of rooms, type of hosuing, etc. To obtain geological data a supplementary dataset was needed containing latitude and longitude values for each property, and by merging these two datasets together the final dataset was created and ending being 75.4 MB in size.
 
-The dataset contains 193.005 records of property registration with 52 columns of different data, some more relevant and useful than other. By taking a look at descriptions of these different columns we were able to identify the most important features. Here are links to the descriptions, but they are in Icelandic so google translate comes in handy: https://www.fasteignaskra.is/gogn/grunngogn-til-nidurhals/kaupskra-fasteigna/eigindalysing-kaupskrar & https://www.fasteignaskra.is/library/Samnyttar-skrar-/Fyrirtaeki-stofnanir/Nidurhal/Sta%C3%B0fangaskr%C3%A1%20eigindal%C3%BDsing.pdf.
+The dataset contains 193.005 records of property registration with 52 columns of different data, some more relevant and useful than other. By taking a look at descriptions of these different columns we were able to identify the most important features. Here are links to the descriptions, but they are in Icelandic so google translate comes in handy: [kaupskra]https://www.fasteignaskra.is/gogn/grunngogn-til-nidurhals/kaupskra-fasteigna/eigindalysing-kaupskrar & [stadfangaskra]https://www.fasteignaskra.is/library/Samnyttar-skrar-/Fyrirtaeki-stofnanir/Nidurhal/Sta%C3%B0fangaskr%C3%A1%20eigindal%C3%BDsing.pdf.
 
 The final set of columns/features we chose are these (english translation of the column to the right of the back slash):
 - `FAERSLUNUMER/transaction_number`: Property transaction number
@@ -53,9 +53,11 @@ The final set of columns/features we chose are these (english translation of the
 - `E_HNIT_WGS84/longitude`: East coordinates in WGS84 longitude
 - `FULLBUID/complete`: If the property is complete then 1 otherwise 0
 
-To enrich our data we needed other supporting datasets. Some are less interesting like the consumer price index, used to adjust the prices to inflation in the histogram plots above (the data was found through this link: https://px.hagstofa.is/pxis/pxweb/is/Efnahagur/Efnahagur__visitolur__1_vnv__1_vnv/VIS01000.px). 
+To enrich our data we needed other supporting datasets. Some are less interesting like the consumer price index, used to adjust the prices to inflation in the histogram plots above (the data was found through this link: [CPI_data]https://px.hagstofa.is/pxis/pxweb/is/Efnahagur/Efnahagur__visitolur__1_vnv__1_vnv/VIS01000.px). 
 
-Then we had two different interest rates, **index** and **non-index**. Here is link to the data of the rates:https://www.sedlabanki.is/annad-efni/meginvextir-si/. We then did some minor transformation and cleaning of the interest rate data as seen below.
+Then we had two different interest rates, **index** and **non-index**. Here is link to the data of the rates:[interestrate]https://www.sedlabanki.is/annad-efni/meginvextir-si/. We then did some minor transformation and cleaning of the interest rate data as seen below.
+
+
 ### Looking at historical trends
 **Diving in:** Let's start by examining historical purchase agreements from 2006 to 2023. This graph reveals a compelling trend. We see a peak in 2007, followed by a significant dip in 2009. This decline coincides with the 2008 financial crisis, a pivotal moment impacting the global economy, including Iceland's housing market.
 
