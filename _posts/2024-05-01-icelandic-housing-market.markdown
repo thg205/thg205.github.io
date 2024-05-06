@@ -53,9 +53,7 @@ The final set of columns/features we chose are these (english translation of the
 - `E_HNIT_WGS84/longitude`: East coordinates in WGS84 longitude
 - `FULLBUID/complete`: If the property is complete then 1 otherwise 0
 
-To enrich our data we needed other supporting datasets. Some are less interesting like the consumer price index, used to adjust the prices to inflation in the histogram plots above the data was found through this link: [CPI_data](https://px.hagstofa.is/pxis/pxweb/is/Efnahagur/Efnahagur__visitolur__1_vnv__1_vnv/VIS01000.px). 
-
-Then we had two different interest rates, **index** and **non-index**. Here is link to the data of the rates:[interestrate](https://www.sedlabanki.is/annad-efni/meginvextir-si/). We then did some minor transformation and cleaning of the interest rate data as seen below.
+To enrich our data we needed other supporting datasets. Most noticably, we had two different interest rates, **index** and **non-index**. Here is link to the data of the rates:[interest_rates](https://www.sedlabanki.is/annad-efni/meginvextir-si/).
 
 
 ### Looking at historical trends
