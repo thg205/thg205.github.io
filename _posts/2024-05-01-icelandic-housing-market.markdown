@@ -18,8 +18,11 @@ hist_best_buys: /assets/hist_best_buys.html
 property_size_groups: /assets/property_size_groups.html
 oldest_houses: /assets/oldest_houses.html
 ---
-<sub><sup>This webpage is built as a part of the course Social Data Analysis and Visualization at DTU during the spring semester of 2024. For more information on the work behind the webpage we have included a [explainer_notebook](https://nbviewer.org/github/thg205/thg205.github.io/blob/master/assets/Final%20Project.ipynb)</sup></sub>
----
+
+This webpage is built as a part of the course Social Data Analysis and Visualization at DTU during the spring semester of 2024. For more information on the work behind the webpage we have included a [explainer_notebook](https://nbviewer.org/github/thg205/thg205.github.io/blob/master/assets/Final%20Project.ipynb)
+
+*** 
+
 **Imagine this:** You're scrolling through endless homes online, picturing yourself kicking back in a rooftop jacuzzi or having backyard barbecues with the family. That's the beauty (and maybe the madness) of the housing market! It's all about finding the place that matches your vibe.
 
 For some, it's a sleek, modern condo downtown, close to the buzz of city life. For others, it's a charming older house in the suburbs, where the kids can become jungle gym champions without ending up in a game of real-life bumper cars.
