@@ -163,3 +163,5 @@ Or for the other ones that don't like all the newest and latest, than here is an
 <iframe src="{{page.oldest_houses}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
+
+Thank you for exploring our data story on the Icelandic housing market with us. We hope it has provided you with new and insightful information!
