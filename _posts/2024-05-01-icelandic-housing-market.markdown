@@ -90,7 +90,7 @@ Now let's compare the price trends. Here, we have calculated a standardized pric
 
 Here we see that most of them follow the same price trends, but there seem to be differentiating the most in the most recent years.
 
-Another question might arise, if there are some different price trends when looking at the type of property: **Apartment**, **Plex/Semi house** and **Private house**. I wouldn't have called it, but all the trends seem to be following the same path. 
+Another question might arise, if there are some different price trends when looking at the type of property: **Apartment**, **Plex/semi/linked house** and **Private house**. I wouldn't have called it, but all the trends seem to be following the same path. 
 
 <iframe src="{{page.price_trend_prop_type_bokeh}}" width="100%" height="600px" frameborder="0">
     Sorry, your browser doesn't support iframes.
