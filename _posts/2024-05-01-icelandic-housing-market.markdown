@@ -19,7 +19,9 @@ property_size_groups: /assets/property_size_groups.html
 oldest_houses: /assets/oldest_houses.html
 ---
 This webpage is built as a part of the course Social Data Analysis and Visualization at DTU during the spring semester of 2024. For more information on the work behind the webpage we have included an [explainer_notebook](https://nbviewer.org/github/thg205/thg205.github.io/blob/master/assets/Final%20Project.ipynb)
+
 *** 
+
 
 **Imagine this:** You're scrolling through endless homes online, picturing yourself kicking back in a rooftop jacuzzi or having backyard barbecues with the family. That's the beauty (and maybe the madness) of the housing market! It's all about finding the place that matches your vibe.
 
