@@ -90,7 +90,7 @@ Now let's compare the price trends. Here, we have calculated a standardized pric
 
 Here we see that most of them follow the same price trends, but there seem to be differentiating the most in the most recent years.
 
-Another question might arise, if there are some different price trends when looking at the type of property: **Apartment**, **Plexi/Semi house** and **Private house**. I wouldn't have called it, but all the trends seem to be following the same path. 
+Another question might arise, if there are some different price trends when looking at the type of property: **Apartment**, **Plex/semi/linked house** and **Private house**. I wouldn't have called it, but all the trends seem to be following the same path. 
 
 <iframe src="{{page.price_trend_prop_type_bokeh}}" width="100%" height="600px" frameborder="0">
     Sorry, your browser doesn't support iframes.
@@ -106,7 +106,7 @@ Now again looking at Iceland as a whole, we see what regions are the most expens
     Sorry, your browser doesn't support iframes.
 </iframe>
 
-**It's apparent:** The capital region is both the most expensive via purchase price and the square meter price. Also, true for other regions, the graphs do not change, meaning both pruchase price and square meter price are similar per region.
+**It's apparent:** The capital region is both the most expensive via purchase price and the square meter price. Also, true for other regions, the graphs do not change that much, meaning both purchase price and square meter price are similar per region.
 
 
 ### Zooming in: The Capital Region of Iceland

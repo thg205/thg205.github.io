@@ -12,7 +12,7 @@
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_a39281b9be45add84d9e7cd54f03fc7d {
+                #map_aea3eb522a3d55f60d6d3cf48ddcbf51 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -58,14 +58,14 @@
              <h3 class="map-title"><b>House sizes</b></h3>
              
     
-            <div class="folium-map" id="map_a39281b9be45add84d9e7cd54f03fc7d" ></div>
+            <div class="folium-map" id="map_aea3eb522a3d55f60d6d3cf48ddcbf51" ></div>
         
 </body>
 <script>
     
     
-            var map_a39281b9be45add84d9e7cd54f03fc7d = L.map(
-                "map_a39281b9be45add84d9e7cd54f03fc7d",
+            var map_aea3eb522a3d55f60d6d3cf48ddcbf51 = L.map(
+                "map_aea3eb522a3d55f60d6d3cf48ddcbf51",
                 {
                     center: [64.128288, -21.827774],
                     crs: L.CRS.EPSG3857,
@@ -79,24 +79,27 @@
 
         
     
-            var tile_layer_27caab9ab9c1fbff065e5a327a1d54b4 = L.tileLayer(
-                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca target=\"_blank\" href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca target=\"_blank\" href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_a39281b9be45add84d9e7cd54f03fc7d);
+            var tile_layer_a0e9195db0518a17fe3f23ed0bfdbf76 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
         
     
-            var feature_group_362e09ab84413de43c603cc024e13692 = L.featureGroup(
+            tile_layer_a0e9195db0518a17fe3f23ed0bfdbf76.addTo(map_aea3eb522a3d55f60d6d3cf48ddcbf51);
+        
+    
+            var feature_group_2bf04998c0ca401e26ef0fc662f4ae6d = L.featureGroup(
                 {}
-            ).addTo(map_a39281b9be45add84d9e7cd54f03fc7d);
+            );
         
     
-            var circle_f131be227a8fe8fadfd6bd9cf6b5b9de = L.circle(
+            var circle_0ab513752e6babaaa5a7876b2ca4bb0b = L.circle(
                 [64.11811016, -21.80453842],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.495, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_f131be227a8fe8fadfd6bd9cf6b5b9de.bindTooltip(
+            circle_0ab513752e6babaaa5a7876b2ca4bb0b.bindTooltip(
                 `<div>
                      Address: Hraunbær 42<br>Property Size: 23.3 m^2<br>Number of rooms: 1 <br>Purchase Price: 23.5 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -104,13 +107,13 @@
             );
         
     
-            var circle_141d637e17d91aafcc9695ae162d2c7f = L.circle(
+            var circle_5351f0afa32049941d3edd5bdc6552dd = L.circle(
                 [64.11823643, -21.80543459],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.495, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_141d637e17d91aafcc9695ae162d2c7f.bindTooltip(
+            circle_5351f0afa32049941d3edd5bdc6552dd.bindTooltip(
                 `<div>
                      Address: Hraunbær 38<br>Property Size: 23.3 m^2<br>Number of rooms: 1 <br>Purchase Price: 8.7 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -118,13 +121,13 @@
             );
         
     
-            var circle_b263c2eab87c4b430794d2954f277c1e = L.circle(
+            var circle_e1fbb09ed1c947621be60b6b82dec9c5 = L.circle(
                 [64.14988262, -21.94977045],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.42, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_b263c2eab87c4b430794d2954f277c1e.bindTooltip(
+            circle_e1fbb09ed1c947621be60b6b82dec9c5.bindTooltip(
                 `<div>
                      Address: Bárugata 34<br>Property Size: 22.8 m^2<br>Number of rooms: 3 <br>Purchase Price: 8.0 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -132,13 +135,13 @@
             );
         
     
-            var circle_c5ff60b726bbd86aef46673b31a8a872 = L.circle(
+            var circle_21ec0b572497e5beb80d9cd4b115548d = L.circle(
                 [64.12203523, -21.8998848],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.655, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_c5ff60b726bbd86aef46673b31a8a872.bindTooltip(
+            circle_21ec0b572497e5beb80d9cd4b115548d.bindTooltip(
                 `<div>
                      Address: Suðurhlíð 35<br>Property Size: 17.7 m^2<br>Number of rooms: 1 <br>Purchase Price: 6.4 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -146,13 +149,13 @@
             );
         
     
-            var circle_dbe7833d17e00a4a4105f88592825feb = L.circle(
+            var circle_f196d918acc51b509acbbf9198ce8370 = L.circle(
                 [64.11766761, -21.80235705],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.42, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_dbe7833d17e00a4a4105f88592825feb.bindTooltip(
+            circle_f196d918acc51b509acbbf9198ce8370.bindTooltip(
                 `<div>
                      Address: Hraunbær 68<br>Property Size: 22.8 m^2<br>Number of rooms: 1 <br>Purchase Price: 15.9 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -160,13 +163,13 @@
             );
         
     
-            var circle_2bef913f6c18a8d33298bee04b14dd70 = L.circle(
+            var circle_69f1d667a6080fdfc5cb7021738dca06 = L.circle(
                 [64.11802151, -21.80309142],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.655, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_2bef913f6c18a8d33298bee04b14dd70.bindTooltip(
+            circle_69f1d667a6080fdfc5cb7021738dca06.bindTooltip(
                 `<div>
                      Address: Hraunbær 60<br>Property Size: 17.7 m^2<br>Number of rooms: 1 <br>Purchase Price: 11.2 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -174,13 +177,13 @@
             );
         
     
-            var circle_e98f7182aa65fc040ffefa57d510b9b1 = L.circle(
+            var circle_a81654a04b27df2383c43b071a1bc68d = L.circle(
                 [64.14997574, -21.94467675],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.495, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_e98f7182aa65fc040ffefa57d510b9b1.bindTooltip(
+            circle_a81654a04b27df2383c43b071a1bc68d.bindTooltip(
                 `<div>
                      Address: Vesturgata 22<br>Property Size: 23.3 m^2<br>Number of rooms: 0 <br>Purchase Price: 7.1 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -188,13 +191,13 @@
             );
         
     
-            var circle_bd0876fd8da13e15a1b3a11473b21fbc = L.circle(
+            var circle_ca813357d048b86180af763ac0065e2e = L.circle(
                 [64.13453489, -21.9089663],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_bd0876fd8da13e15a1b3a11473b21fbc.bindTooltip(
+            circle_ca813357d048b86180af763ac0065e2e.bindTooltip(
                 `<div>
                      Address: Miklabraut 76<br>Property Size: 10.0 m^2<br>Number of rooms: <NA> <br>Purchase Price: 1.45 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -202,13 +205,13 @@
             );
         
     
-            var circle_825e651ab0a4110ac8300798ddaef7a5 = L.circle(
+            var circle_3c4d315722fa3eccb9a12b757bf441d7 = L.circle(
                 [64.14336747, -21.88536602],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.165, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_825e651ab0a4110ac8300798ddaef7a5.bindTooltip(
+            circle_3c4d315722fa3eccb9a12b757bf441d7.bindTooltip(
                 `<div>
                      Address: Hofteigur 32<br>Property Size: 21.1 m^2<br>Number of rooms: 1 <br>Purchase Price: 35.0 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -216,13 +219,13 @@
             );
         
     
-            var circle_6b9f02d97154c854857b5739f629bb5c = L.circle(
+            var circle_d354c7c8c8a46f2b3ca7828931ef8c85 = L.circle(
                 [64.0621439, -21.96052723],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.7349999999999994, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_6b9f02d97154c854857b5739f629bb5c.bindTooltip(
+            circle_d354c7c8c8a46f2b3ca7828931ef8c85.bindTooltip(
                 `<div>
                      Address: Suðurgata 78<br>Property Size: 24.9 m^2<br>Number of rooms: 0 <br>Purchase Price: 8.5 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -230,13 +233,13 @@
             );
         
     
-            var circle_dfa8cc92a7d60388c64f488bfa361810 = L.circle(
+            var circle_fd02f5781fcfe303fc51e541ad29a8fd = L.circle(
                 [64.14468599, -21.93382162],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6999999999999997, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_dfa8cc92a7d60388c64f488bfa361810.bindTooltip(
+            circle_fd02f5781fcfe303fc51e541ad29a8fd.bindTooltip(
                 `<div>
                      Address: Spítalastígur 7<br>Property Size: 18.0 m^2<br>Number of rooms: 1 <br>Purchase Price: 26.19 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -244,13 +247,13 @@
             );
         
     
-            var circle_1459425f2e7319a2b341a3a16ea9a439 = L.circle(
+            var circle_04e62ce18acc4683db7547d87093de2d = L.circle(
                 [64.14398743, -21.93533889],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.195, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_1459425f2e7319a2b341a3a16ea9a439.bindTooltip(
+            circle_04e62ce18acc4683db7547d87093de2d.bindTooltip(
                 `<div>
                      Address: Grundarstígur 11<br>Property Size: 21.3 m^2<br>Number of rooms: 1 <br>Purchase Price: 6.4 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -258,13 +261,13 @@
             );
         
     
-            var circle_169c7958aa4c5cb9027dd5eba6e4ab35 = L.circle(
+            var circle_965097dc23203a1a48fdce3ac72b5be7 = L.circle(
                 [64.1422858, -21.95415722],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.415, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_169c7958aa4c5cb9027dd5eba6e4ab35.bindTooltip(
+            circle_965097dc23203a1a48fdce3ac72b5be7.bindTooltip(
                 `<div>
                      Address: Birkimelur 10A<br>Property Size: 16.1 m^2<br>Number of rooms: 2 <br>Purchase Price: 14.0 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -272,13 +275,13 @@
             );
         
     
-            var circle_e96077803042f1fd7a76457d56cf2cb4 = L.circle(
+            var circle_e947d821550f78c6fd85e8b521ed667e = L.circle(
                 [64.11923684, -21.8548884],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.675, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_e96077803042f1fd7a76457d56cf2cb4.bindTooltip(
+            circle_e947d821550f78c6fd85e8b521ed667e.bindTooltip(
                 `<div>
                      Address: Snæland 5<br>Property Size: 24.5 m^2<br>Number of rooms: 0 <br>Purchase Price: 31.7 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -286,13 +289,13 @@
             );
         
     
-            var circle_8d38432c16d7cddee45fe7afa2d49601 = L.circle(
+            var circle_c1bd289edbda6bdef0ec42d062eab569 = L.circle(
                 [64.14077946, -21.91573803],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.7349999999999994, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_8d38432c16d7cddee45fe7afa2d49601.bindTooltip(
+            circle_c1bd289edbda6bdef0ec42d062eab569.bindTooltip(
                 `<div>
                      Address: Karlagata 24<br>Property Size: 24.9 m^2<br>Number of rooms: 2 <br>Purchase Price: 16.0 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -300,13 +303,13 @@
             );
         
     
-            var circle_5365701a78b5af0a031368fc7a544805 = L.circle(
+            var circle_90a0295c04d184a5aca9ead9662e43b6 = L.circle(
                 [64.14549273, -21.96544229],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.0749999999999997, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_5365701a78b5af0a031368fc7a544805.bindTooltip(
+            circle_90a0295c04d184a5aca9ead9662e43b6.bindTooltip(
                 `<div>
                      Address: Kaplaskjólsvegur 53<br>Property Size: 20.5 m^2<br>Number of rooms: 0 <br>Purchase Price: 1.7 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -314,13 +317,13 @@
             );
         
     
-            var circle_c7572681e3efbb978787070dc271f373 = L.circle(
+            var circle_4026e4b70f4a7db8bad4d52b19cff4df = L.circle(
                 [64.14139105, -21.91497361],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.495, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_c7572681e3efbb978787070dc271f373.bindTooltip(
+            circle_4026e4b70f4a7db8bad4d52b19cff4df.bindTooltip(
                 `<div>
                      Address: Njálsgata 112<br>Property Size: 23.3 m^2<br>Number of rooms: <NA> <br>Purchase Price: 21.5 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -328,13 +331,13 @@
             );
         
     
-            var circle_5dfd33d51be7abad79280f5fe559fe37 = L.circle(
+            var circle_9eb504c6a27b76f2c87aa250aac43de3 = L.circle(
                 [64.14487648, -21.91755578],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.85, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_5dfd33d51be7abad79280f5fe559fe37.bindTooltip(
+            circle_9eb504c6a27b76f2c87aa250aac43de3.bindTooltip(
                 `<div>
                      Address: Skúlagata 40<br>Property Size: 19.0 m^2<br>Number of rooms: 1 <br>Purchase Price: 20.8 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -342,13 +345,13 @@
             );
         
     
-            var circle_85f7bccab09f0ecedca2ad73a62615ce = L.circle(
+            var circle_a8c7ff7fb2f029e860acdf177dfad210 = L.circle(
                 [64.11782078, -21.80325592],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.0749999999999997, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_85f7bccab09f0ecedca2ad73a62615ce.bindTooltip(
+            circle_a8c7ff7fb2f029e860acdf177dfad210.bindTooltip(
                 `<div>
                      Address: Hraunbær 62<br>Property Size: 20.5 m^2<br>Number of rooms: 1 <br>Purchase Price: 18.5 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -356,13 +359,13 @@
             );
         
     
-            var circle_333c4ad659f8418d0004328c80502a39 = L.circle(
+            var circle_e8a3035d3a912e5a0b10c440b9006148 = L.circle(
                 [64.1122526, -21.89127597],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.5999999999999996, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_333c4ad659f8418d0004328c80502a39.bindTooltip(
+            circle_e8a3035d3a912e5a0b10c440b9006148.bindTooltip(
                 `<div>
                      Address: Álfhólsvegur 49<br>Property Size: 24.0 m^2<br>Number of rooms: 1 <br>Purchase Price: 18.1 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -370,13 +373,13 @@
             );
         
     
-            var circle_7f70e28c23af5989ffb703b82763d4d3 = L.circle(
+            var circle_a754df63121a66842d77351d3914f8b4 = L.circle(
                 [64.148422, -21.87186844],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.4499999999999997, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_7f70e28c23af5989ffb703b82763d4d3.bindTooltip(
+            circle_a754df63121a66842d77351d3914f8b4.bindTooltip(
                 `<div>
                      Address: Sporðagrunn 7<br>Property Size: 23.0 m^2<br>Number of rooms: 1 <br>Purchase Price: 5.0 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -384,13 +387,13 @@
             );
         
     
-            var circle_21ac53de521d1ffeb92b1f93b442e73b = L.circle(
+            var circle_8aa114f2540c931606822a2ef8b81e49 = L.circle(
                 [64.14218575, -21.91875881],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.415, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_21ac53de521d1ffeb92b1f93b442e73b.bindTooltip(
+            circle_8aa114f2540c931606822a2ef8b81e49.bindTooltip(
                 `<div>
                      Address: Njálsgata 80<br>Property Size: 16.1 m^2<br>Number of rooms: 0 <br>Purchase Price: 16.5 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -398,13 +401,13 @@
             );
         
     
-            var circle_c1fa4c7332a45906e7ac9f3039ddfd3f = L.circle(
+            var circle_ac48cfb780e34d2747c86c5a2515edde = L.circle(
                 [64.14218575, -21.91875881],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2049999999999996, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_c1fa4c7332a45906e7ac9f3039ddfd3f.bindTooltip(
+            circle_ac48cfb780e34d2747c86c5a2515edde.bindTooltip(
                 `<div>
                      Address: Njálsgata 80<br>Property Size: 14.7 m^2<br>Number of rooms: 0 <br>Purchase Price: 14.0 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -412,13 +415,13 @@
             );
         
     
-            var circle_0ab6835b911c734d30ad3aa2a46ff5ad = L.circle(
+            var circle_68dea3ad482edc5c6fa6c8f2142d40b2 = L.circle(
                 [64.15050248, -21.95475955],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.4599999999999995, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_0ab6835b911c734d30ad3aa2a46ff5ad.bindTooltip(
+            circle_68dea3ad482edc5c6fa6c8f2142d40b2.bindTooltip(
                 `<div>
                      Address: Framnesvegur 21<br>Property Size: 16.4 m^2<br>Number of rooms: 1 <br>Purchase Price: 10.75 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -426,13 +429,13 @@
             );
         
     
-            var circle_1749238fc3e3c7c4beea187ecd49550b = L.circle(
+            var circle_3873bcf46d94bdfe9250c0f566ef3610 = L.circle(
                 [64.12923092, -21.88446314],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.6599999999999997, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_1749238fc3e3c7c4beea187ecd49550b.bindTooltip(
+            circle_3873bcf46d94bdfe9250c0f566ef3610.bindTooltip(
                 `<div>
                      Address: Stóragerði 14<br>Property Size: 24.4 m^2<br>Number of rooms: 1 <br>Purchase Price: 17.0 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -440,13 +443,13 @@
             );
         
     
-            var circle_81b1fe6115048787bcb2b5ca73dc6e2a = L.circle(
+            var circle_f4a499852e58bbe7ebe852fd584f05bf = L.circle(
                 [64.14916323, -21.88336032],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.615, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_81b1fe6115048787bcb2b5ca73dc6e2a.bindTooltip(
+            circle_f4a499852e58bbe7ebe852fd584f05bf.bindTooltip(
                 `<div>
                      Address: Laugarnesvegur 86<br>Property Size: 24.1 m^2<br>Number of rooms: 1 <br>Purchase Price: 15.1 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -454,13 +457,13 @@
             );
         
     
-            var circle_0c18a9cf5824b9c56658c657a7d2945d = L.circle(
+            var circle_f62365dae5374b2ab0dd577b467e239e = L.circle(
                 [64.14080711, -21.91587829],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.495, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_0c18a9cf5824b9c56658c657a7d2945d.bindTooltip(
+            circle_f62365dae5374b2ab0dd577b467e239e.bindTooltip(
                 `<div>
                      Address: Karlagata 22<br>Property Size: 23.3 m^2<br>Number of rooms: <NA> <br>Purchase Price: 11.0 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -468,13 +471,13 @@
             );
         
     
-            var circle_965748824a57cb238feeb074f5ff324c = L.circle(
+            var circle_7d6d894bcd7945d1e4c7e747e76954cb = L.circle(
                 [64.14389262, -21.97008498],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.5999999999999996, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_965748824a57cb238feeb074f5ff324c.bindTooltip(
+            circle_7d6d894bcd7945d1e4c7e747e76954cb.bindTooltip(
                 `<div>
                      Address: Sörlaskjól 34<br>Property Size: 24.0 m^2<br>Number of rooms: 1 <br>Purchase Price: 12.25 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -482,13 +485,13 @@
             );
         
     
-            var circle_b5baecbe27ceb530fdbc90c45232b94f = L.circle(
+            var circle_2a179fb216a853788c370db275df5389 = L.circle(
                 [64.14315813, -21.95534126],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.63, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_b5baecbe27ceb530fdbc90c45232b94f.bindTooltip(
+            circle_2a179fb216a853788c370db275df5389.bindTooltip(
                 `<div>
                      Address: Grenimelur 5<br>Property Size: 24.2 m^2<br>Number of rooms: 2 <br>Purchase Price: 17.0 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -496,13 +499,13 @@
             );
         
     
-            var circle_54c61ad0b50c4a9771353e914ba5a1d9 = L.circle(
+            var circle_eac67f63278ca66a07cb62d20549cc3a = L.circle(
                 [64.14378042, -21.93522269],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.39, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_54c61ad0b50c4a9771353e914ba5a1d9.bindTooltip(
+            circle_eac67f63278ca66a07cb62d20549cc3a.bindTooltip(
                 `<div>
                      Address: Grundarstígur 15B<br>Property Size: 22.6 m^2<br>Number of rooms: 1 <br>Purchase Price: 11.5 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -510,13 +513,13 @@
             );
         
     
-            var circle_dbce3a28585f70fc543d486fd081b47d = L.circle(
+            var circle_81142390494114a2ec08aa0b7f670c37 = L.circle(
                 [64.14378042, -21.93522269],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.24, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_dbce3a28585f70fc543d486fd081b47d.bindTooltip(
+            circle_81142390494114a2ec08aa0b7f670c37.bindTooltip(
                 `<div>
                      Address: Grundarstígur 15B<br>Property Size: 21.6 m^2<br>Number of rooms: 1 <br>Purchase Price: 14.9 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -524,13 +527,13 @@
             );
         
     
-            var circle_b59ebc7aa57c7389fb70ac636348ca4f = L.circle(
+            var circle_8c2d8e72a4026ad6040a36e64ab98e95 = L.circle(
                 [64.14378042, -21.93522269],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.5849999999999995, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_b59ebc7aa57c7389fb70ac636348ca4f.bindTooltip(
+            circle_8c2d8e72a4026ad6040a36e64ab98e95.bindTooltip(
                 `<div>
                      Address: Grundarstígur 15B<br>Property Size: 23.9 m^2<br>Number of rooms: 1 <br>Purchase Price: 20.3 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -538,13 +541,13 @@
             );
         
     
-            var circle_d580f39f62e4070a0a79375b13b6823e = L.circle(
+            var circle_412783f62f582ef3e837634ee89f13c8 = L.circle(
                 [64.11991312, -21.85496477],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.63, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_d580f39f62e4070a0a79375b13b6823e.bindTooltip(
+            circle_412783f62f582ef3e837634ee89f13c8.bindTooltip(
                 `<div>
                      Address: Seljaland 5<br>Property Size: 24.2 m^2<br>Number of rooms: 1 <br>Purchase Price: 14.75 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -552,13 +555,13 @@
             );
         
     
-            var circle_2ddb6589498b3026fe5879f67c6332fa = L.circle(
+            var circle_12c8d2590459cdef29950e3c3ec18acd = L.circle(
                 [64.11991312, -21.85496477],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.6599999999999997, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_2ddb6589498b3026fe5879f67c6332fa.bindTooltip(
+            circle_12c8d2590459cdef29950e3c3ec18acd.bindTooltip(
                 `<div>
                      Address: Seljaland 5<br>Property Size: 24.4 m^2<br>Number of rooms: 1 <br>Purchase Price: 16.9 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -566,13 +569,13 @@
             );
         
     
-            var circle_bccf6a84d4f3854a8e2ac932b748a41f = L.circle(
+            var circle_1a1b4357bbd727a5fc20ff544971db4e = L.circle(
                 [64.15037232, -21.95473621],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8349999999999995, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_bccf6a84d4f3854a8e2ac932b748a41f.bindTooltip(
+            circle_1a1b4357bbd727a5fc20ff544971db4e.bindTooltip(
                 `<div>
                      Address: Öldugata 54<br>Property Size: 18.9 m^2<br>Number of rooms: 1 <br>Purchase Price: 13.0 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -580,13 +583,13 @@
             );
         
     
-            var circle_ae50a25949c107039db4e8e863f2558d = L.circle(
+            var circle_e6e238f3c8bbffd9c4f6cec7a45e00fa = L.circle(
                 [64.14233158, -21.91954496],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.595, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_ae50a25949c107039db4e8e863f2558d.bindTooltip(
+            circle_e6e238f3c8bbffd9c4f6cec7a45e00fa.bindTooltip(
                 `<div>
                      Address: Njálsgata 72<br>Property Size: 17.3 m^2<br>Number of rooms: 1 <br>Purchase Price: 5.0 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -594,13 +597,13 @@
             );
         
     
-            var circle_c001a66272f8f16d70c6157d6e4f90ce = L.circle(
+            var circle_404fbafe0d70c4bbfc9b3fc5bed042df = L.circle(
                 [64.14512713, -21.92801939],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.675, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_c001a66272f8f16d70c6157d6e4f90ce.bindTooltip(
+            circle_404fbafe0d70c4bbfc9b3fc5bed042df.bindTooltip(
                 `<div>
                      Address: Laugavegur 28D<br>Property Size: 24.5 m^2<br>Number of rooms: 0 <br>Purchase Price: 13.5 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -608,13 +611,13 @@
             );
         
     
-            var circle_278b4f5c9f36d436f439ee85562b8b0e = L.circle(
-                [64.14357617, -21.915266199999998],
+            var circle_293431534fbd139792e23bc095b3d5e1 = L.circle(
+                [64.14357617, -21.9152662],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.07, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_278b4f5c9f36d436f439ee85562b8b0e.bindTooltip(
+            circle_293431534fbd139792e23bc095b3d5e1.bindTooltip(
                 `<div>
                      Address: Hverfisgata 114<br>Property Size: 13.8 m^2<br>Number of rooms: 1 <br>Purchase Price: 7.0 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -622,13 +625,13 @@
             );
         
     
-            var circle_fb2d2988cdfec5d75b88ea835618156c = L.circle(
+            var circle_34f0e621a2cff77b5c8dde39389f7bd4 = L.circle(
                 [64.14272682, -21.91730955],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.94, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_fb2d2988cdfec5d75b88ea835618156c.bindTooltip(
+            circle_34f0e621a2cff77b5c8dde39389f7bd4.bindTooltip(
                 `<div>
                      Address: Snorrabraut 36<br>Property Size: 19.6 m^2<br>Number of rooms: 1 <br>Purchase Price: 14.5 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -636,13 +639,13 @@
             );
         
     
-            var circle_549d9c8b1f7124f7adb447d2d000005d = L.circle(
+            var circle_e2e2fcc7bcad2d42aa4f8441e5653b39 = L.circle(
                 [64.14684025, -21.95092324],
                 {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 80.82, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_549d9c8b1f7124f7adb447d2d000005d.bindTooltip(
+            circle_e2e2fcc7bcad2d42aa4f8441e5653b39.bindTooltip(
                 `<div>
                      Address: Sólvallagata 14<br>Property Size: 538.8 m^2<br>Number of rooms: 9 <br>Purchase Price: 450.0 m ISK<br>Property Type: Apartment <br>Category: 500+ m^2
                  </div>`,
@@ -650,13 +653,13 @@
             );
         
     
-            var circle_7fb90efbc2b2b6ac4ed497771e4a6007 = L.circle(
+            var circle_a13c0e7269e6dc209bb562ed05015090 = L.circle(
                 [64.14075196, -21.91804099],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.34, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_7fb90efbc2b2b6ac4ed497771e4a6007.bindTooltip(
+            circle_a13c0e7269e6dc209bb562ed05015090.bindTooltip(
                 `<div>
                      Address: Vífilsgata 6<br>Property Size: 15.6 m^2<br>Number of rooms: 2 <br>Purchase Price: 4.0 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -664,13 +667,13 @@
             );
         
     
-            var circle_5b99092a09c50b6f01556d13a8e15843 = L.circle(
+            var circle_529d27e3b189e5e7c0a586e67bd0b13a = L.circle(
                 [64.12038618, -21.78806698],
                 {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 125.30999999999999, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_5b99092a09c50b6f01556d13a8e15843.bindTooltip(
+            circle_529d27e3b189e5e7c0a586e67bd0b13a.bindTooltip(
                 `<div>
                      Address: Lyngháls 10<br>Property Size: 835.4 m^2<br>Number of rooms: <NA> <br>Purchase Price: 141.0 m ISK<br>Property Type: Apartment <br>Category: 500+ m^2
                  </div>`,
@@ -678,13 +681,13 @@
             );
         
     
-            var circle_3e5a5517fbf843cb2cdde2db27cb4b24 = L.circle(
+            var circle_e97b8802a6817973c5e8b5cfc5f14f1f = L.circle(
                 [64.14348122, -21.92619592],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.36, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_3e5a5517fbf843cb2cdde2db27cb4b24.bindTooltip(
+            circle_e97b8802a6817973c5e8b5cfc5f14f1f.bindTooltip(
                 `<div>
                      Address: Frakkastígur 19<br>Property Size: 22.4 m^2<br>Number of rooms: 1 <br>Purchase Price: 21.0 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -692,13 +695,13 @@
             );
         
     
-            var circle_a8e2e249fc0c814f9b8104f4ace24a75 = L.circle(
+            var circle_4f4a4ce0bcccbb6cb4959a28af8f13a1 = L.circle(
                 [64.06189932, -21.9601935],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.495, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_a8e2e249fc0c814f9b8104f4ace24a75.bindTooltip(
+            circle_4f4a4ce0bcccbb6cb4959a28af8f13a1.bindTooltip(
                 `<div>
                      Address: Suðurgata 72<br>Property Size: 23.3 m^2<br>Number of rooms: 0 <br>Purchase Price: 6.25 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -706,13 +709,13 @@
             );
         
     
-            var circle_14dd6c8509db4048bfec1b23ba0fd064 = L.circle(
+            var circle_72415888a212c8d99bcc0bf552316c27 = L.circle(
                 [64.1199036, -21.85534354],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.5999999999999996, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_14dd6c8509db4048bfec1b23ba0fd064.bindTooltip(
+            circle_72415888a212c8d99bcc0bf552316c27.bindTooltip(
                 `<div>
                      Address: Seljaland 7<br>Property Size: 24.0 m^2<br>Number of rooms: 1 <br>Purchase Price: 16.7 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -720,13 +723,13 @@
             );
         
     
-            var circle_a23afc7b07115d14b7fc54ac283d5bae = L.circle(
+            var circle_afc37e0cd3653a982063562a83c4eb24 = L.circle(
                 [64.14241084, -21.93603477],
                 {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 75.13499999999999, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_a23afc7b07115d14b7fc54ac283d5bae.bindTooltip(
+            circle_afc37e0cd3653a982063562a83c4eb24.bindTooltip(
                 `<div>
                      Address: Bergstaðastræti 44<br>Property Size: 500.9 m^2<br>Number of rooms: 1 <br>Purchase Price: 109.0 m ISK<br>Property Type: Apartment <br>Category: 500+ m^2
                  </div>`,
@@ -734,13 +737,13 @@
             );
         
     
-            var circle_719b868a391d6d18d66f4eb9ed79d407 = L.circle(
+            var circle_7163149ed0804c885ea190c6f18243f1 = L.circle(
                 [64.04365826, -21.98039286],
                 {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 410.835, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_719b868a391d6d18d66f4eb9ed79d407.bindTooltip(
+            circle_7163149ed0804c885ea190c6f18243f1.bindTooltip(
                 `<div>
                      Address: Eskivellir 13<br>Property Size: 2738.9 m^2<br>Number of rooms: 4 <br>Purchase Price: 50.0 m ISK<br>Property Type: Apartment <br>Category: 500+ m^2
                  </div>`,
@@ -748,13 +751,13 @@
             );
         
     
-            var circle_d272c4cf1a99b7c32e5c45bf01a80836 = L.circle(
+            var circle_8e3dfb78e6cec4eee1c0602e8c25ab2d = L.circle(
                 [64.14935884, -21.94425291],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.2849999999999997, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_d272c4cf1a99b7c32e5c45bf01a80836.bindTooltip(
+            circle_8e3dfb78e6cec4eee1c0602e8c25ab2d.bindTooltip(
                 `<div>
                      Address: Ránargata 4<br>Property Size: 21.9 m^2<br>Number of rooms: 1 <br>Purchase Price: 36.2 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -762,13 +765,13 @@
             );
         
     
-            var circle_07cf71100d43bbb60333e4b6efac62d3 = L.circle(
+            var circle_3ad2fe2296c8e2e21fea3ca72e36bbc3 = L.circle(
                 [64.14269758, -21.93030764],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.7199999999999998, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_07cf71100d43bbb60333e4b6efac62d3.bindTooltip(
+            circle_3ad2fe2296c8e2e21fea3ca72e36bbc3.bindTooltip(
                 `<div>
                      Address: Þórsgata 20<br>Property Size: 24.8 m^2<br>Number of rooms: <NA> <br>Purchase Price: 18.0 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -776,13 +779,13 @@
             );
         
     
-            var circle_bba028fa7f3e52e489ddaf5c4583e1cc = L.circle(
+            var circle_aa627ea9d836c5ea02510352681ff5b9 = L.circle(
                 [64.14365389, -21.9127451],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.7150000000000003, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_bba028fa7f3e52e489ddaf5c4583e1cc.bindTooltip(
+            circle_aa627ea9d836c5ea02510352681ff5b9.bindTooltip(
                 `<div>
                      Address: Rauðarárstígur 9<br>Property Size: 18.1 m^2<br>Number of rooms: 1 <br>Purchase Price: 9.7 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -790,13 +793,13 @@
             );
         
     
-            var circle_874be72c4ff1d83c4f1a524c04b89df6 = L.circle(
+            var circle_8a9dee7dc82d2e2955685dc6bc04792b = L.circle(
                 [64.13283369, -21.90514869],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.39, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_874be72c4ff1d83c4f1a524c04b89df6.bindTooltip(
+            circle_8a9dee7dc82d2e2955685dc6bc04792b.bindTooltip(
                 `<div>
                      Address: Bogahlíð 9<br>Property Size: 22.6 m^2<br>Number of rooms: 1 <br>Purchase Price: 12.5 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -804,13 +807,13 @@
             );
         
     
-            var circle_36c8a4f478db3049d87158c345241581 = L.circle(
+            var circle_af0fa027121b71bfcb8263e5d1fa95b5 = L.circle(
                 [64.14373619, -21.91267154],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.7349999999999994, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_36c8a4f478db3049d87158c345241581.bindTooltip(
+            circle_af0fa027121b71bfcb8263e5d1fa95b5.bindTooltip(
                 `<div>
                      Address: Rauðarárstígur 7<br>Property Size: 24.9 m^2<br>Number of rooms: 0 <br>Purchase Price: 17.0 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -818,13 +821,13 @@
             );
         
     
-            var circle_03f095f7fc65ff23d71a6d40c7e95266 = L.circle(
+            var circle_4d5da9d751dc896efe16aa5530579311 = L.circle(
                 [64.14934536, -21.94523898],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.7349999999999994, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_03f095f7fc65ff23d71a6d40c7e95266.bindTooltip(
+            circle_4d5da9d751dc896efe16aa5530579311.bindTooltip(
                 `<div>
                      Address: Ránargata 7A<br>Property Size: 24.9 m^2<br>Number of rooms: 1 <br>Purchase Price: 10.0 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -832,13 +835,13 @@
             );
         
     
-            var circle_793f1df3dc1a68e16be5d15e3772fc51 = L.circle(
+            var circle_0f8b76210e00beb3e5be7fd3bab0f216 = L.circle(
                 [64.11817111, -21.80509926],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.495, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_793f1df3dc1a68e16be5d15e3772fc51.bindTooltip(
+            circle_0f8b76210e00beb3e5be7fd3bab0f216.bindTooltip(
                 `<div>
                      Address: Hraunbær 40<br>Property Size: 23.3 m^2<br>Number of rooms: 1 <br>Purchase Price: 12.0 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -846,13 +849,13 @@
             );
         
     
-            var circle_5405c1a4b324c53c697be6076b2423a5 = L.circle(
+            var circle_740e537db94c37965e694164d8e077ee = L.circle(
                 [64.13463854, -21.9096819],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.5999999999999996, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_5405c1a4b324c53c697be6076b2423a5.bindTooltip(
+            circle_740e537db94c37965e694164d8e077ee.bindTooltip(
                 `<div>
                      Address: Miklabraut 72<br>Property Size: 24.0 m^2<br>Number of rooms: 2 <br>Purchase Price: 13.5 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -860,13 +863,13 @@
             );
         
     
-            var circle_24f2d5b0fb9d3517c022bc2bb9be1953 = L.circle(
+            var circle_77cf165f2387eb2bad6657dfe6988f22 = L.circle(
                 [64.14177312, -21.90931245],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.405, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_24f2d5b0fb9d3517c022bc2bb9be1953.bindTooltip(
+            circle_77cf165f2387eb2bad6657dfe6988f22.bindTooltip(
                 `<div>
                      Address: Brautarholt 6<br>Property Size: 22.7 m^2<br>Number of rooms: 0 <br>Purchase Price: 23.0 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -874,13 +877,13 @@
             );
         
     
-            var circle_731a111659c31cd6acab0787d69a7982 = L.circle(
+            var circle_ca0f3ed38d7a2c60148c5d3f805d60f1 = L.circle(
                 [64.13747652, -21.89258278],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2049999999999996, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_731a111659c31cd6acab0787d69a7982.bindTooltip(
+            circle_ca0f3ed38d7a2c60148c5d3f805d60f1.bindTooltip(
                 `<div>
                      Address: Álftamýri 2<br>Property Size: 14.7 m^2<br>Number of rooms: 0 <br>Purchase Price: 8.5 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -888,13 +891,13 @@
             );
         
     
-            var circle_88aba9c3cb6f12c1c752aebf413e1b27 = L.circle(
+            var circle_5004e9bce20e85255bfa2c117e9f9968 = L.circle(
                 [64.13567851, -21.8556385],
                 {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 77.39999999999999, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_88aba9c3cb6f12c1c752aebf413e1b27.bindTooltip(
+            circle_5004e9bce20e85255bfa2c117e9f9968.bindTooltip(
                 `<div>
                      Address: Langholtsvegur 113<br>Property Size: 516.0 m^2<br>Number of rooms: 0 <br>Purchase Price: 92.5 m ISK<br>Property Type: Apartment <br>Category: 500+ m^2
                  </div>`,
@@ -902,13 +905,13 @@
             );
         
     
-            var circle_6debde9ee510b04720c68b20cb948385 = L.circle(
+            var circle_658c4425d1b8b647809ef861a3a60c36 = L.circle(
                 [64.14214385, -21.93370334],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.385, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_6debde9ee510b04720c68b20cb948385.bindTooltip(
+            circle_658c4425d1b8b647809ef861a3a60c36.bindTooltip(
                 `<div>
                      Address: Nönnugata 1<br>Property Size: 15.9 m^2<br>Number of rooms: 1 <br>Purchase Price: 15.0 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -916,13 +919,13 @@
             );
         
     
-            var circle_80f2430b007aa1c84341958c7344969f = L.circle(
+            var circle_4bba738df24480272ac26e312ffee62e = L.circle(
                 [64.1417358, -21.91836165],
                 {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 80.88000000000001, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_80f2430b007aa1c84341958c7344969f.bindTooltip(
+            circle_4bba738df24480272ac26e312ffee62e.bindTooltip(
                 `<div>
                      Address: Snorrabraut 52<br>Property Size: 539.2 m^2<br>Number of rooms: 31 <br>Purchase Price: 164.8 m ISK<br>Property Type: Apartment <br>Category: 500+ m^2
                  </div>`,
@@ -930,13 +933,13 @@
             );
         
     
-            var circle_610b9799b25d76e0cb9d58ad2d257116 = L.circle(
+            var circle_50c70bc9584cad21bbff363d3ee5893f = L.circle(
                 [64.110202, -21.91334549],
                 {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 82.59, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_610b9799b25d76e0cb9d58ad2d257116.bindTooltip(
+            circle_50c70bc9584cad21bbff363d3ee5893f.bindTooltip(
                 `<div>
                      Address: Skjólbraut 11<br>Property Size: 550.6 m^2<br>Number of rooms: 3 <br>Purchase Price: 80.0 m ISK<br>Property Type: Apartment <br>Category: 500+ m^2
                  </div>`,
@@ -944,13 +947,13 @@
             );
         
     
-            var circle_a2141b5e7159355dece264da4f25edef = L.circle(
+            var circle_b8282eb46f57a47d9c0f64e2cd2a0402 = L.circle(
                 [64.13423168, -21.95228843],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.75, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_a2141b5e7159355dece264da4f25edef.bindTooltip(
+            circle_b8282eb46f57a47d9c0f64e2cd2a0402.bindTooltip(
                 `<div>
                      Address: Reykjavíkurvegur 31<br>Property Size: 25.0 m^2<br>Number of rooms: 1 <br>Purchase Price: 22.5 m ISK<br>Property Type: Apartment <br>Category: 0-25 m^2
                  </div>`,
@@ -958,13 +961,13 @@
             );
         
     
-            var circle_ae70a27938d892f4ef15f374bbe4bd24 = L.circle(
+            var circle_9531e7d1feccd240fc9094f9c70abb2b = L.circle(
                 [64.12086733, -21.89653095],
                 {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 75.72, "stroke": true, "weight": 3}
-            ).addTo(feature_group_362e09ab84413de43c603cc024e13692);
+            ).addTo(feature_group_2bf04998c0ca401e26ef0fc662f4ae6d);
         
     
-            circle_ae70a27938d892f4ef15f374bbe4bd24.bindTooltip(
+            circle_9531e7d1feccd240fc9094f9c70abb2b.bindTooltip(
                 `<div>
                      Address: Lautarvegur 12<br>Property Size: 504.8 m^2<br>Number of rooms: 9 <br>Purchase Price: 44.5 m ISK<br>Property Type: Apartment <br>Category: 500+ m^2
                  </div>`,
@@ -972,18 +975,21 @@
             );
         
     
-            var feature_group_9236a24fd49759b20d59d7fb824c3628 = L.featureGroup(
-                {}
-            ).addTo(map_a39281b9be45add84d9e7cd54f03fc7d);
+            feature_group_2bf04998c0ca401e26ef0fc662f4ae6d.addTo(map_aea3eb522a3d55f60d6d3cf48ddcbf51);
         
     
-            var circle_4788dc43549559d8ec38ee314025a5f1 = L.circle(
+            var feature_group_9709bd5281b31139e1f6f5e64c28e8ac = L.featureGroup(
+                {}
+            );
+        
+    
+            var circle_15d495ea9a817f01afc700fa38a6d559 = L.circle(
                 [64.10302135, -21.9229781],
                 {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 80.955, "stroke": true, "weight": 3}
-            ).addTo(feature_group_9236a24fd49759b20d59d7fb824c3628);
+            ).addTo(feature_group_9709bd5281b31139e1f6f5e64c28e8ac);
         
     
-            circle_4788dc43549559d8ec38ee314025a5f1.bindTooltip(
+            circle_15d495ea9a817f01afc700fa38a6d559.bindTooltip(
                 `<div>
                      Address: Haukanes 10<br>Property Size: 539.7 m^2<br>Number of rooms: 6 <br>Purchase Price: 153.0 m ISK<br>Property Type: Private house <br>Category: 500+ m^2
                  </div>`,
@@ -991,13 +997,13 @@
             );
         
     
-            var circle_26cfb0ed3b1e00271332170324794b2a = L.circle(
+            var circle_5266ebf05d38a8be392b7e38c4272505 = L.circle(
                 [64.14446577, -21.8716042],
                 {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100.16999999999999, "stroke": true, "weight": 3}
-            ).addTo(feature_group_9236a24fd49759b20d59d7fb824c3628);
+            ).addTo(feature_group_9709bd5281b31139e1f6f5e64c28e8ac);
         
     
-            circle_26cfb0ed3b1e00271332170324794b2a.bindTooltip(
+            circle_5266ebf05d38a8be392b7e38c4272505.bindTooltip(
                 `<div>
                      Address: Laugarásvegur 20<br>Property Size: 667.8 m^2<br>Number of rooms: 10 <br>Purchase Price: 120.0 m ISK<br>Property Type: Private house <br>Category: 500+ m^2
                  </div>`,
@@ -1005,13 +1011,13 @@
             );
         
     
-            var circle_6d40e686e56f763258563437ef10e107 = L.circle(
+            var circle_7ae8b2be6ed78960aacf38afd0b844a1 = L.circle(
                 [64.14253113, -21.92122176],
                 {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.03, "stroke": true, "weight": 3}
-            ).addTo(feature_group_9236a24fd49759b20d59d7fb824c3628);
+            ).addTo(feature_group_9709bd5281b31139e1f6f5e64c28e8ac);
         
     
-            circle_6d40e686e56f763258563437ef10e107.bindTooltip(
+            circle_7ae8b2be6ed78960aacf38afd0b844a1.bindTooltip(
                 `<div>
                      Address: Njálsgata 60B<br>Property Size: 20.2 m^2<br>Number of rooms: 2 <br>Purchase Price: 10.0 m ISK<br>Property Type: Private house <br>Category: 0-25 m^2
                  </div>`,
@@ -1019,13 +1025,13 @@
             );
         
     
-            var circle_bc11ef76a163578331e23615ee12b34d = L.circle(
-                [64.16853989, -21.704713100000003],
+            var circle_aec0f15b1b2febc03038181eb05d8631 = L.circle(
+                [64.16853989, -21.7047131],
                 {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 79.41, "stroke": true, "weight": 3}
-            ).addTo(feature_group_9236a24fd49759b20d59d7fb824c3628);
+            ).addTo(feature_group_9709bd5281b31139e1f6f5e64c28e8ac);
         
     
-            circle_bc11ef76a163578331e23615ee12b34d.bindTooltip(
+            circle_aec0f15b1b2febc03038181eb05d8631.bindTooltip(
                 `<div>
                      Address: Bugðutangi 23<br>Property Size: 529.4 m^2<br>Number of rooms: 5 <br>Purchase Price: 118.0 m ISK<br>Property Type: Private house <br>Category: 500+ m^2
                  </div>`,
@@ -1033,13 +1039,13 @@
             );
         
     
-            var circle_6441acf371ae538635f1c3590028a2d4 = L.circle(
-                [64.09579735, -21.914310699999998],
+            var circle_ac436f2e98136d9ae11c0b4236711635 = L.circle(
+                [64.09579735, -21.9143107],
                 {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 80.96999999999998, "stroke": true, "weight": 3}
-            ).addTo(feature_group_9236a24fd49759b20d59d7fb824c3628);
+            ).addTo(feature_group_9709bd5281b31139e1f6f5e64c28e8ac);
         
     
-            circle_6441acf371ae538635f1c3590028a2d4.bindTooltip(
+            circle_ac436f2e98136d9ae11c0b4236711635.bindTooltip(
                 `<div>
                      Address: Krossakur 8<br>Property Size: 539.8 m^2<br>Number of rooms: 7 <br>Purchase Price: 180.0 m ISK<br>Property Type: Private house <br>Category: 500+ m^2
                  </div>`,
@@ -1047,13 +1053,13 @@
             );
         
     
-            var circle_85e58fec9b5ae60dc6c9e7769bc6be77 = L.circle(
+            var circle_d0529ad4a9df831a92f4e5a2d7d32c93 = L.circle(
                 [64.08897177, -21.80972896],
                 {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 75.13499999999999, "stroke": true, "weight": 3}
-            ).addTo(feature_group_9236a24fd49759b20d59d7fb824c3628);
+            ).addTo(feature_group_9709bd5281b31139e1f6f5e64c28e8ac);
         
     
-            circle_85e58fec9b5ae60dc6c9e7769bc6be77.bindTooltip(
+            circle_d0529ad4a9df831a92f4e5a2d7d32c93.bindTooltip(
                 `<div>
                      Address: Asparhvarf 18<br>Property Size: 500.9 m^2<br>Number of rooms: 8 <br>Purchase Price: 127.5 m ISK<br>Property Type: Private house <br>Category: 500+ m^2
                  </div>`,
@@ -1061,13 +1067,13 @@
             );
         
     
-            var circle_d145d7092f6c1b0eda66bc3a293ca467 = L.circle(
+            var circle_b936490e33ea11a71d754669965eec34 = L.circle(
                 [64.10017348, -21.92836398],
                 {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 87.3, "stroke": true, "weight": 3}
-            ).addTo(feature_group_9236a24fd49759b20d59d7fb824c3628);
+            ).addTo(feature_group_9709bd5281b31139e1f6f5e64c28e8ac);
         
     
-            circle_d145d7092f6c1b0eda66bc3a293ca467.bindTooltip(
+            circle_b936490e33ea11a71d754669965eec34.bindTooltip(
                 `<div>
                      Address: Mávanes 7<br>Property Size: 582.0 m^2<br>Number of rooms: 5 <br>Purchase Price: 195.0 m ISK<br>Property Type: Private house <br>Category: 500+ m^2
                  </div>`,
@@ -1075,13 +1081,13 @@
             );
         
     
-            var circle_82ed50d7ead79655ace98c702b49b0a3 = L.circle(
+            var circle_fc8054fd93e416543c79acb1eec252f2 = L.circle(
                 [64.17870993, -21.6874718],
                 {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 75.195, "stroke": true, "weight": 3}
-            ).addTo(feature_group_9236a24fd49759b20d59d7fb824c3628);
+            ).addTo(feature_group_9709bd5281b31139e1f6f5e64c28e8ac);
         
     
-            circle_82ed50d7ead79655ace98c702b49b0a3.bindTooltip(
+            circle_fc8054fd93e416543c79acb1eec252f2.bindTooltip(
                 `<div>
                      Address: Kvíslartunga 40<br>Property Size: 501.3 m^2<br>Number of rooms: 5 <br>Purchase Price: 13.0 m ISK<br>Property Type: Private house <br>Category: 500+ m^2
                  </div>`,
@@ -1089,13 +1095,13 @@
             );
         
     
-            var circle_cda913e2b409a33fe9644c7d14e9e0ca = L.circle(
+            var circle_e38e677e086957892104bd94c5ac9884 = L.circle(
                 [64.09240069, -21.80562388],
                 {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 81.165, "stroke": true, "weight": 3}
-            ).addTo(feature_group_9236a24fd49759b20d59d7fb824c3628);
+            ).addTo(feature_group_9709bd5281b31139e1f6f5e64c28e8ac);
         
     
-            circle_cda913e2b409a33fe9644c7d14e9e0ca.bindTooltip(
+            circle_e38e677e086957892104bd94c5ac9884.bindTooltip(
                 `<div>
                      Address: Ennishvarf 8<br>Property Size: 541.1 m^2<br>Number of rooms: 4 <br>Purchase Price: 154.0 m ISK<br>Property Type: Private house <br>Category: 500+ m^2
                  </div>`,
@@ -1103,13 +1109,13 @@
             );
         
     
-            var circle_5acf02cd69e8ce81d2d10da731aa6a07 = L.circle(
+            var circle_8407d916902cda6f803e4bd0f9881552 = L.circle(
                 [64.09994626, -21.92789564],
                 {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 172.455, "stroke": true, "weight": 3}
-            ).addTo(feature_group_9236a24fd49759b20d59d7fb824c3628);
+            ).addTo(feature_group_9709bd5281b31139e1f6f5e64c28e8ac);
         
     
-            circle_5acf02cd69e8ce81d2d10da731aa6a07.bindTooltip(
+            circle_8407d916902cda6f803e4bd0f9881552.bindTooltip(
                 `<div>
                      Address: Mávanes 5<br>Property Size: 1149.7 m^2<br>Number of rooms: 7 <br>Purchase Price: 225.0 m ISK<br>Property Type: Private house <br>Category: 500+ m^2
                  </div>`,
@@ -1117,13 +1123,13 @@
             );
         
     
-            var circle_232283223610f44167d9717a66e0b683 = L.circle(
+            var circle_da413226a9eadd1bf72feb4773453d48 = L.circle(
                 [64.14701347, -21.94594832],
                 {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 76.755, "stroke": true, "weight": 3}
-            ).addTo(feature_group_9236a24fd49759b20d59d7fb824c3628);
+            ).addTo(feature_group_9709bd5281b31139e1f6f5e64c28e8ac);
         
     
-            circle_232283223610f44167d9717a66e0b683.bindTooltip(
+            circle_da413226a9eadd1bf72feb4773453d48.bindTooltip(
                 `<div>
                      Address: Garðastræti 38<br>Property Size: 511.7 m^2<br>Number of rooms: 11 <br>Purchase Price: 247.75 m ISK<br>Property Type: Private house <br>Category: 500+ m^2
                  </div>`,
@@ -1131,13 +1137,13 @@
             );
         
     
-            var circle_3b138817eea7ef8cb019e7426f9d3232 = L.circle(
+            var circle_720739c1893442ac4cfd4abf106585fd = L.circle(
                 [64.10294669, -21.9244486],
                 {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 77.535, "stroke": true, "weight": 3}
-            ).addTo(feature_group_9236a24fd49759b20d59d7fb824c3628);
+            ).addTo(feature_group_9709bd5281b31139e1f6f5e64c28e8ac);
         
     
-            circle_3b138817eea7ef8cb019e7426f9d3232.bindTooltip(
+            circle_720739c1893442ac4cfd4abf106585fd.bindTooltip(
                 `<div>
                      Address: Haukanes 13<br>Property Size: 516.9 m^2<br>Number of rooms: 5 <br>Purchase Price: 279.0 m ISK<br>Property Type: Private house <br>Category: 500+ m^2
                  </div>`,
@@ -1145,13 +1151,13 @@
             );
         
     
-            var circle_20ccdaf40a44eb4fa234ac387ca6500d = L.circle(
+            var circle_256e0849854104382477fa5a94c20da9 = L.circle(
                 [64.14815384, -21.94635933],
                 {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 76.62, "stroke": true, "weight": 3}
-            ).addTo(feature_group_9236a24fd49759b20d59d7fb824c3628);
+            ).addTo(feature_group_9709bd5281b31139e1f6f5e64c28e8ac);
         
     
-            circle_20ccdaf40a44eb4fa234ac387ca6500d.bindTooltip(
+            circle_256e0849854104382477fa5a94c20da9.bindTooltip(
                 `<div>
                      Address: Túngata 20<br>Property Size: 510.8 m^2<br>Number of rooms: 7 <br>Purchase Price: 575.0 m ISK<br>Property Type: Private house <br>Category: 500+ m^2
                  </div>`,
@@ -1159,13 +1165,13 @@
             );
         
     
-            var circle_0d202dd4bacf658a869d7ce1f332b356 = L.circle(
+            var circle_6cc255f7d1d1cd1625e4a16d884ec191 = L.circle(
                 [64.15105393, -21.99951358],
                 {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 75.045, "stroke": true, "weight": 3}
-            ).addTo(feature_group_9236a24fd49759b20d59d7fb824c3628);
+            ).addTo(feature_group_9709bd5281b31139e1f6f5e64c28e8ac);
         
     
-            circle_0d202dd4bacf658a869d7ce1f332b356.bindTooltip(
+            circle_6cc255f7d1d1cd1625e4a16d884ec191.bindTooltip(
                 `<div>
                      Address: Bakkavör 12<br>Property Size: 500.3 m^2<br>Number of rooms: 8 <br>Purchase Price: 273.0 m ISK<br>Property Type: Private house <br>Category: 500+ m^2
                  </div>`,
@@ -1173,13 +1179,13 @@
             );
         
     
-            var circle_cda2d241e892d197f4dadf848328dc56 = L.circle(
+            var circle_9a06aa978fa27be79738f7811fba4ad8 = L.circle(
                 [64.09562064, -21.90971438],
                 {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 80.25, "stroke": true, "weight": 3}
-            ).addTo(feature_group_9236a24fd49759b20d59d7fb824c3628);
+            ).addTo(feature_group_9709bd5281b31139e1f6f5e64c28e8ac);
         
     
-            circle_cda2d241e892d197f4dadf848328dc56.bindTooltip(
+            circle_9a06aa978fa27be79738f7811fba4ad8.bindTooltip(
                 `<div>
                      Address: Kornakur 8<br>Property Size: 535.0 m^2<br>Number of rooms: 6 <br>Purchase Price: 410.0 m ISK<br>Property Type: Private house <br>Category: 500+ m^2
                  </div>`,
@@ -1187,40 +1193,47 @@
             );
         
     
-            var feature_group_3631b2d02cfdfb2a301ba0d33fbb9769 = L.featureGroup(
-                {}
-            ).addTo(map_a39281b9be45add84d9e7cd54f03fc7d);
+            feature_group_9709bd5281b31139e1f6f5e64c28e8ac.addTo(map_aea3eb522a3d55f60d6d3cf48ddcbf51);
         
     
-            var circle_56241dabbd0803720337244f6543343c = L.circle(
+            var feature_group_3d1b9c7c7935790f2111de1bf55d7d31 = L.featureGroup(
+                {}
+            );
+        
+    
+            var circle_35a8be4d52fbb8bbbc595f767db56d91 = L.circle(
                 [64.14316547, -21.91118434],
                 {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 75.78, "stroke": true, "weight": 3}
-            ).addTo(feature_group_3631b2d02cfdfb2a301ba0d33fbb9769);
+            ).addTo(feature_group_3d1b9c7c7935790f2111de1bf55d7d31);
         
     
-            circle_56241dabbd0803720337244f6543343c.bindTooltip(
+            circle_35a8be4d52fbb8bbbc595f767db56d91.bindTooltip(
                 `<div>
-                     Address: Laugavegur 139<br>Property Size: 505.2 m^2<br>Number of rooms: 19 <br>Purchase Price: 320.0 m ISK<br>Property Type: Plex/semi house <br>Category: 500+ m^2
+                     Address: Laugavegur 139<br>Property Size: 505.2 m^2<br>Number of rooms: 19 <br>Purchase Price: 320.0 m ISK<br>Property Type: Plex/semi/linked house <br>Category: 500+ m^2
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var layer_control_2d0fd6f7366870bbe510971bda6aec21 = {
+            feature_group_3d1b9c7c7935790f2111de1bf55d7d31.addTo(map_aea3eb522a3d55f60d6d3cf48ddcbf51);
+        
+    
+            var layer_control_5c1eea8c5851cd7bd4fe9e10e3d898f5_layers = {
                 base_layers : {
-                    "cartodbpositron" : tile_layer_27caab9ab9c1fbff065e5a327a1d54b4,
+                    "cartodbpositron" : tile_layer_a0e9195db0518a17fe3f23ed0bfdbf76,
                 },
                 overlays :  {
-                    "Apartment" : feature_group_362e09ab84413de43c603cc024e13692,
-                    "Private house" : feature_group_9236a24fd49759b20d59d7fb824c3628,
-                    "Plex/semi house" : feature_group_3631b2d02cfdfb2a301ba0d33fbb9769,
+                    "Apartment" : feature_group_2bf04998c0ca401e26ef0fc662f4ae6d,
+                    "Private house" : feature_group_9709bd5281b31139e1f6f5e64c28e8ac,
+                    "Plex/semi/linked house" : feature_group_3d1b9c7c7935790f2111de1bf55d7d31,
                 },
             };
-            L.control.layers(
-                layer_control_2d0fd6f7366870bbe510971bda6aec21.base_layers,
-                layer_control_2d0fd6f7366870bbe510971bda6aec21.overlays,
+            let layer_control_5c1eea8c5851cd7bd4fe9e10e3d898f5 = L.control.layers(
+                layer_control_5c1eea8c5851cd7bd4fe9e10e3d898f5_layers.base_layers,
+                layer_control_5c1eea8c5851cd7bd4fe9e10e3d898f5_layers.overlays,
                 {"autoZIndex": true, "collapsed": false, "position": "topright"}
-            ).addTo(map_a39281b9be45add84d9e7cd54f03fc7d);
+            ).addTo(map_aea3eb522a3d55f60d6d3cf48ddcbf51);
+
         
 </script>
 </html>
