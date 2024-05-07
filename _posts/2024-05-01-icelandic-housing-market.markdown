@@ -112,7 +112,7 @@ Now again looking at Iceland as a whole, we see what regions are the most expens
 ### Zooming in: The Capital Region of Iceland
 Most people live in Reykjavík or close by municipalities. Therefor, the most interesting thing to investigate would be via postal code, that is, the postal codes that are associated with "The Capital Region of Iceland". The prices are often heavily influenced by postal code.
 
-Take a look at the most (or least) expensive postal codes, with regards to the average purchase price, in this fun and interactive map:
+Take a look at the most (or least) expensive postal codes, with regards to the average purchase price, in this fun and interactive map where the size of the dot is determined by number of purchase agreements within that postal code:
 
 <iframe src="{{page.avg_price_folium}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
