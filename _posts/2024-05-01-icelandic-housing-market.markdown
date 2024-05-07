@@ -106,7 +106,7 @@ Now again looking at Iceland as a whole, we see what regions are the most expens
     Sorry, your browser doesn't support iframes.
 </iframe>
 
-**It's apparent:** The capital region is both the most expensive via purchase price and the square meter price. Also, true for other regions, the graphs do not change, meaning both pruchase price and square meter price are similar per region.
+**It's apparent:** The capital region is both the most expensive via purchase price and the square meter price. Also, true for other regions, the graphs do not change that much, meaning both purchase price and square meter price are similar per region.
 
 
 ### Zooming in: The Capital Region of Iceland
