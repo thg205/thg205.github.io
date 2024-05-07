@@ -130,8 +130,8 @@ We can also look at the different postal codes with regards to the average purch
 </iframe>
 
 **Interesting insights:**
-* When looking at the average price per $m^2$ different pattern appears, now the cheapest postal code area is 109 with average price per $m^2$ of 332 kISK/$m^2$, which is around 16.5 kDKK/$m^2$.
-* The most expensive area is still 102 with a whooping 629 kISK/$m^2$ in average price per $m^2$ (31.1 kDKK/$m^2$) and thus almost two times more expensive than in postal code 109.
+* When looking at the average price per square meter different pattern appears, now the cheapest postal code area is 109 with average price per square meter of 332 kISK/square meter, which is around 16.5 kDKK/square meter.
+* The most expensive area is still 102 with a whooping 629 kISK/square meter in average price per square meter (31.1 kDKK/square meter) and thus almost two times more expensive than in postal code 109.
 * Taking everything in it seems that more suburban areas are cheaper and the more centrally located you are in Reykjavík the higher the square metere price is.
 
 Next plot is for the business savvy - always wanting to make the big bucks - **Presenting:** Historical "best buys" where we have calculated the percentage change since the property was bought, comparing purchase price to current property value - the value that indicates what you could most likely get for your apartment when putting it up for sale. Please, try out our filter, so you can get a feeling for the different sizes based on property types.
