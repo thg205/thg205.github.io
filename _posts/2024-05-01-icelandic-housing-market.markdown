@@ -18,7 +18,7 @@ hist_best_buys: /assets/hist_best_buys.html
 property_size_groups: /assets/property_size_groups.html
 oldest_houses: /assets/oldest_houses.html
 ---
-This webpage is built as a part of the course Social Data Analysis and Visualization at DTU during the spring semester of 2024. For more information on the work behind the webpage we have included an [explainer notebook](https://github.com/thg205/thg205.github.io/blob/master/assets/Final%20Project.ipynb).
+This webpage is built as a part of the course Social Data Analysis and Visualization at DTU during the spring semester of 2024. For more information on the work behind the webpage we have included an [explainer notebook](http://localhost:8888/nbconvert/html/Desktop/Social%20Data%20Analysis%20and%20Visualization/Final%20Project.ipynb?download=false).
 
 *** 
 
