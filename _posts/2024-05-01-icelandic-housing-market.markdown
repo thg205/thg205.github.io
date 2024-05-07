@@ -134,7 +134,7 @@ We can also look at the different postal codes with regards to the average purch
 * The most expensive area is still 102 with a whooping 629 kISK/square meter in average price per square meter (31.1 kDKK/square meter) and thus almost two times more expensive than in postal code 109.
 * Taking everything in it seems that more suburban areas are cheaper and the more centrally located you are in Reykjavík the higher the square metere price is.
 
-Next plot is for the business savvy - always wanting to make the big bucks - **Presenting:** Historical "best buys" where we have calculated the percentage change since the property was bought, comparing purchase price to current property value - the value that indicates what you could most likely get for your apartment when putting it up for sale. Please, try out our filter, so you can get a feeling for the different sizes based on property types.
+Next plot is for the business savvy - always wanting to make the big bucks - Presenting historical _"best buys"_ where we have calculated the percentage change since the property was bought, comparing purchase price to current property value - the value that indicates what you could most likely get for your apartment when putting it up for sale. Please, try out our filter, so you can get a feeling for the different sizes based on property types.
 
 <iframe src="{{page.hist_best_buys}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
