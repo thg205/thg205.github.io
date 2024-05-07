@@ -27,7 +27,7 @@ The folks behind this website understand that perfectly. When they heard Iceland
 But before we start let's take a look at the datasets that where used.
 
 ### The datasets
-The main dataset that was used in this project is an open-source dataset containing property registration data for the Icelandic housing market, which was downloaded from this source: [property_register](https://www.fasteignaskra.is/gogn/grunngogn-til-nidurhals). It contains information on historical purchase prices, property address, postal codes, square meters, numbner of rooms, type of hosuing, etc. To obtain geological data a supplementary dataset was needed containing latitude and longitude values for each property, and by merging these two datasets together the final dataset was created and ending being 75.4 MB in size.
+The main dataset that was used in this project is an open-source dataset containing property registration data for the Icelandic housing market, which was downloaded from this source: [property register](https://www.fasteignaskra.is/gogn/grunngogn-til-nidurhals). It contains information on historical purchase prices, property address, postal codes, square meters, numbner of rooms, type of hosuing, etc. To obtain geological data a supplementary dataset was needed containing latitude and longitude values for each property, and by merging these two datasets together the final dataset was created and ending being 75.4 MB in size.
 
 The dataset contains 193.005 records of property registration with 52 columns of different data, some more relevant and useful than other. By taking a look at descriptions of these different columns we were able to identify the most important features. Here are links to the descriptions, but they are in Icelandic so google translate comes in handy: [kaupskra](https://www.fasteignaskra.is/gogn/grunngogn-til-nidurhals/kaupskra-fasteigna/eigindalysing-kaupskrar) & [stadfangaskra](https://www.fasteignaskra.is/library/Samnyttar-skrar-/Fyrirtaeki-stofnanir/Nidurhal/Sta%C3%B0fangaskr%C3%A1%20eigindal%C3%BDsing.pdf).
 
@@ -53,7 +53,7 @@ The final set of columns/features we chose are these (english translation of the
 - `E_HNIT_WGS84/longitude`: East coordinates in WGS84 longitude
 - `FULLBUID/complete`: If the property is complete then 1 otherwise 0
 
-To enrich our data we needed other supporting datasets. Most noticably, we had two different interest rates, **index** and **non-index**. Here is link to the data of the rates:[interest_rates](https://www.sedlabanki.is/annad-efni/meginvextir-si/).
+To enrich our data we needed other supporting datasets. Most noticably, we had two different interest rates, **index** and **non-index**. Here is link to the data of the rates: [interest rates](https://www.sedlabanki.is/annad-efni/meginvextir-si/).
 
 
 ### Looking at historical trends
@@ -67,22 +67,20 @@ So, what's the *secret sauce* behind these market ups and downs? It boils down t
 
 The graph showcases the average mortgage rates (indexed and non-indexed) alongside the number of contracts. Observe how rates climbed in 2008. Rates then dipped in 2013, followed by a period of sustained growth in the housing market, Then the top was found in 2020/2021, likely fueled by increased savings during the COVID-19 lockdowns.
 
-Mynd af **Number of contracts per year with index rates:**
-
 ![Bar-chart]({{page.number-of-contracts-per-year-with-rates}}){:width="100%"}
 
 This exploration provides a glimpse into the dynamic relationship between mortgage interest rates and the Icelandic housing market. By examining trends, we gain valuable insights into the factors shaping this ever-evolving landscape.
 
 
 ### Details of properties available
-In Iceland there are about 60 municipalities, but many of them are small and not as interesting, so these are the 16 biggest, most of them close to **Reykjavík**, the capital city. Let's look at the different details per municipality, where we draw some insights about what you could be expecting when buying a property in one of the municipalities.
+In Iceland there are about 60 municipalities, but many of them are small and not as interesting, so these are the 16 biggest, most of them close to **Reykjavík**, the capital city. Let's look at the different details per municipality, where we drew some insights about what you could be expecting when buying a property in one of the municipalities.
 
 ![Bar-chart]({{page.bar-chart-statistics}}){:width="100%"}
 
 **Interesting insights:**
-* The most expensive municipalities are Garðabær and Seltjarnarnes (think of Hellerup and Frederiksberg) but the cheapest ones are Fjarðarbyggð and Ísafjarðarbær located on the east- and westfjords - pretty far from the capital region
+* The most expensive municipalities are Garðabær and Seltjarnarnes (think of Hellerup and Frederiksberg) but the cheapest ones are Fjarðarbyggð and Ísafjarðarbær located on the East- and Westfjords - pretty far from the capital region.
 * Oldest houses are in Reykjavík, no real surprise there! But maybe more interesting, for most other municipalities most properties are built from 2000, indicating that many new properties have been built the last 20 years.
-* Again, we see Garðabær and Seltjarnarnes have the biggest properties on average but it's Fjarðarbyggð that has the most rooms on average, or 3.5 rooms on average. I guess they need there space there in the eastfjords!
+* Again, we see Garðabær and Seltjarnarnes have the biggest properties on average but it's Fjarðarbyggð that has the most rooms on average, or 3.5 rooms on average. I guess they need their space there in the eastfjords!
 
 Now let's compare the price trends. Here, we have calculated a standardized price per municipality to be able to compare them to each other. Chart below is interactive! Please have some fun clicking on different municipalities.
 
@@ -98,7 +96,7 @@ Another question might arise, if there are some different price trends when look
     Sorry, your browser doesn't support iframes.
 </iframe>
 
-Now again looking at Iceland as a whole, we see what regions are the most expensive, both in regards of purchase price of property and the square meter price. By hovering ower the graph with your cursor, your able to gain more informations per region!
+Now again looking at Iceland as a whole, we see what regions are the most expensive, both in regards to purchase price of property and the square meter price. By hovering ower the graph with your cursor, you're able to gain more informations per region!
 
 <iframe src="{{page.avg_price_choro}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
@@ -114,16 +112,27 @@ Now again looking at Iceland as a whole, we see what regions are the most expens
 ### Zooming in: The Capital Region of Iceland
 Most people live in Reykjavík or close by municipalities. Therefor, the most interesting thing to investigate would be via postal code, that is, the postal codes that are associated with "The Capital Region of Iceland". The prices are often heavily influenced by postal code.
 
-Take a look at the most expensive postal codes in this fun and interactive map:
+Take a look at the most (or least) expensive postal codes, with regards to the average purchase price, in this fun and interactive map:
 
 <iframe src="{{page.avg_price_folium}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
 
 **Interesting insights:**
-* Postal code 111 is by far the cheapest one, average price of 31.16 mISK which is approximately 1.5 mDKK
-* But perhaps surprising postal code 102 is the most expensive, average price of 67.34 mISK or approximately 3.37 mDKK
-* Also, even though 270 (Mosfellsbær) is the furthest away from the city center of Reykjavík, then it's still sitting at the middle of the bunch 
+* Postal code 111 is by far the cheapest one, average price of 31.16 mISK which is approximately 1.5 mDKK.
+* But, perhaps surprisingly, postal code 102 is the most expensive, with average price of 67.34 mISK or approximately 3.37 mDKK.
+* Also, even though 270 (Mosfellsbær) is the furthest away from the city center of Reykjavík, then it's still sitting at the middle of the bunch.
+
+We can also look at the different postal codes with regards to the average purchase price per square meter, meaning it shows where to buy properties if you want to get the most for your buck in terms of square meters:
+
+<iframe src="{{page.avg_price_per_m2_folium}}" width="100%" height="400px" frameborder="0">
+    Sorry, your browser doesn't support iframes.
+</iframe>
+
+**Interesting insights:**
+* When looking at the average price per $m^2$ different pattern appears, now the cheapest postal code area is 109 with average price per $m^2$ of 332 kISK/$m^2$, which is around 16.5 kDKK/$m^2$.
+* The most expensive area is still 102 with a whooping 629 kISK/$m^2$ in average price per $m^2$ (31.1 kDKK/$m^2$) and thus almost two times more expensive than in postal code 109.
+* Taking everything in it seems that more suburban areas are cheaper and the more centrally located you are in Reykjavík the higher the square metere price is.
 
 Next plot is for the business savvy - always wanting to make the big bucks - **Presenting:** Historical "best buys" where we have calculated the percentage change since the property was bought, comparing purchase price to current property value - the value that indicates what you could most likely get for your apartment when putting it up for sale. Please, try out our filter, so you can get a feeling for the different sizes based on property types.
 
@@ -139,7 +148,7 @@ And finally, who doesn't want to live in a big mansion, with hundreds of square 
 
 
 ### For the odd ones
-If you would not like to live in the hustle and bustled of Reykjavík (for an Icelandic standard at lest) then we made a little analysis for the *less social ones* of the bunch. If you dream of isolation, Iceland is the place to be and below you can see the 3 most isolated houses that where sold between 2006-2024. 
+If you would not like to live in the hustle and bustle of Reykjavík (for an Icelandic standard at least) then we made a little analysis for the *less social ones* of the bunch. If you dream of isolation, Iceland is the place to be and below you can see the 3 most isolated houses that where sold between 2006-2024. 
 
 <iframe src="{{page.isolated_houses}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
