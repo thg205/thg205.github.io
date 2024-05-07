@@ -130,8 +130,8 @@ We can also look at the different postal codes with regards to the average purch
 </iframe>
 
 **Interesting insights:**
-* When looking at the average price per $m^2$ different pattern appears, now the cheapest postal code area is 109 with average price per $m^2$ of 332 kISK/$m^2$, which is around 16.5 kDKK/$m^2$.
-* The most expensive area is still 102 with a whooping 629 kISK/$m^2$ in average price per $m^2$ (31.1 kDKK/$m^2$) and thus almost two times more expensive than in postal code 109.
+* When looking at the average price per square meter different pattern appears, now the cheapest postal code area is 109 with average price per square meter of 332 kISK/square meter, which is around 16.5 kDKK/square meter.
+* The most expensive area is still 102 with a whooping 629 kISK/square meter in average price per square meter (31.1 kDKK/square meter) and thus almost two times more expensive than in postal code 109.
 * Taking everything in it seems that more suburban areas are cheaper and the more centrally located you are in Reykjavík the higher the square metere price is.
 
 Next plot is for the business savvy - always wanting to make the big bucks - **Presenting:** Historical "best buys" where we have calculated the percentage change since the property was bought, comparing purchase price to current property value - the value that indicates what you could most likely get for your apartment when putting it up for sale. Please, try out our filter, so you can get a feeling for the different sizes based on property types.
@@ -140,14 +140,14 @@ Next plot is for the business savvy - always wanting to make the big bucks - **P
     Sorry, your browser doesn't support iframes.
 </iframe>
 
-And finally, who doesn't want to live in a big mansion, with hundreds of square meters. We got the answer for you. But what about those that are less materalistic? Don't worry, we also got you covered...also pointing out the smallest properties sold. Please, try out our filter, so you can get a feeling for the different sizes based on property types.
+And finally, who doesn't want to live in a big mansion, with hundreds of square meters. We got the answer for you. But what about those that are less materalistic? Don't worry, we got you covered...pointing out the smallest properties sold. Please, try out our filter, so you can get a feeling for the different sizes based on property types. Either way, you can zoom in and get a direction of where the biggest/smallest properties are located in the Capital Region.
 
 <iframe src="{{page.property_size_groups}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
 </iframe>
 
 
-### For the odd ones
+### For the "odd ones"
 If you would not like to live in the hustle and bustle of Reykjavík (for an Icelandic standard at least) then we made a little analysis for the *less social ones* of the bunch. If you dream of isolation, Iceland is the place to be and below you can see the 3 most isolated houses that where sold between 2006-2024. 
 
 <iframe src="{{page.isolated_houses}}" width="100%" height="400px" frameborder="0">
