@@ -147,7 +147,7 @@ And finally, who doesn't want to live in a big mansion, with hundreds of square 
 </iframe>
 
 
-### For the odd ones
+### For the "odd ones"
 If you would not like to live in the hustle and bustle of Reykjavík (for an Icelandic standard at least) then we made a little analysis for the *less social ones* of the bunch. If you dream of isolation, Iceland is the place to be and below you can see the 3 most isolated houses that where sold between 2006-2024. 
 
 <iframe src="{{page.isolated_houses}}" width="100%" height="400px" frameborder="0">
