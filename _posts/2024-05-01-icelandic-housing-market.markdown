@@ -140,7 +140,7 @@ Next plot is for the business savvy - always wanting to make the big bucks - **P
     Sorry, your browser doesn't support iframes.
 </iframe>
 
-And finally, who doesn't want to live in a big mansion, with hundreds of square meters. We got the answer for you. But what about those that are less materalistic? Don't worry, we also got you covered...also pointing out the smallest properties sold. Please, try out our filter, so you can get a feeling for the different sizes based on property types.
+And finally, who doesn't want to live in a big mansion, with hundreds of square meters. We got the answer for you. But what about those that are less materalistic? Don't worry, we got you covered...pointing out the smallest properties sold. Please, try out our filter, so you can get a feeling for the different sizes based on property types. Either way, you can zoom in and get a direction of where the biggest/smallest properties are located in the Capital Region.
 
 <iframe src="{{page.property_size_groups}}" width="100%" height="400px" frameborder="0">
     Sorry, your browser doesn't support iframes.
